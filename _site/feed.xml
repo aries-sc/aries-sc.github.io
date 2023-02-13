@@ -1,88 +1,183 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/affiliates-jekyll-theme/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/affiliates-jekyll-theme/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-01-23T06:55:16+00:00</updated><id>http://localhost:4000/affiliates-jekyll-theme/feed.xml</id><title type="html">Affiliates</title><author><name>Sal</name></author><entry><title type="html">Powerful things you can do with the Markdown editor</title><link href="http://localhost:4000/affiliates-jekyll-theme/powerful-things-markdown-editor/" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" /><published>2020-01-12T00:00:00+00:00</published><updated>2020-01-12T00:00:00+00:00</updated><id>http://localhost:4000/affiliates-jekyll-theme/powerful-things-markdown-editor</id><content type="html" xml:base="http://localhost:4000/affiliates-jekyll-theme/powerful-things-markdown-editor/"><![CDATA[<p>There are lots of powerful things you can do with the Markdown editor</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-02-13T07:47:35+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Active Galaxies: Most Powerful Objects in the Universe – An Overview</title><link href="http://localhost:4000/activegalaxies/" rel="alternate" type="text/html" title="Active Galaxies: Most Powerful Objects in the Universe – An Overview" /><published>2023-02-10T00:00:00+00:00</published><updated>2023-02-10T00:00:00+00:00</updated><id>http://localhost:4000/Active-Galaxies</id><content type="html" xml:base="http://localhost:4000/activegalaxies/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post"> Active galaxies are highly luminous astrophysical sources in the universe powered by “supermassive black holes” via processes known 
+            as “accretion”. They contain a highly bright, compact region at the galaxy’s center called “active galactic nuclei” (AGN). Their emission spreads 
+            over a wide range of frequencies through radio to γ-rays. Both thermal and non-thermal radiations from different components of AGN contribute to 
+            the total observed emission. They exhibit extreme variations ranging from all the time-scale from minutes to years across the electromagnetic band.
+            These variations occur as flares or quiescent/low-activity states. Studying the cause for such physical properties of AGNs through multi-frequency 
+            data using ground and space-based observatories has been found to be one of the most effective ways in the past. Despite such studies in various 
+            wavebands, there are several questions for which answers are not fully understood. In this talk, the speaker will briefly introduce AGN and its 
+            current understanding status, along with the scope of AGN research.</p>
+    </blockquote>
 
-<p>If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</p>
+    <p class="post">We present to you the second talk of our ARIES Science Club by Dr. Krishna Mohana. On our Earth, the Large Hadron Collider (LHC) generates 
+        particles with energies in the Tera electron volts (TeV) range, which is a lot! However, there are some mysterious and powerful objects in our Universe
+        where this energy is just child's play. They are called AGN (Active Galactic Nuclei).
+    </p>
 
-<p>As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.</p>
+    <p class="post">An AGN is a small region at the center of some galaxies that is far brighter than can be explained by the stellar population alone. AGNs 
+        emit radiation from radio waves to gamma rays across the entire electromagnetic spectrum. Carl Seyfert discovered this incredible phenomenon in 1943. 
+        The galaxies which contain these AGNs were thus named Seyfert Galaxies.
+    </p>
 
-<h2 id="special-formatting">Special formatting</h2>
+    <figure>
+        <img src="/assets/images/2023-02-10-talk/figure1.jpg" alt="Unified model of AGN">
+        <figcaption class="post-caption">Figure 1: Unified model of AGN</figcaption>
+    </figure>
 
-<p>As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:</p>
+    <p>The AGN structure has certain key components:
+        <ul class="post">
+            <li>The central engine (supermassive black hole mass ~10<sup>8</sup> - 10<sup>9</sup> M<sub>&#9737</sub>)</li>
+            <li>Accretion disk</li>
+            <li>Corona</li>
+            <li>Broad line region</li>
+            <li>Narrow line region</li>
+            <li>Dusty torus</li>
+            <li>Relativistic jets</li>
+        </ul>
+    </p>
 
-<ul>
-  <li><del>strike through</del></li>
-  <li>==highlight==</li>
-  <li>*escaped characters*</li>
-</ul>
+    <p class="post">Further, AGNs are classified in terms of the observer's viewing angle, the energy of the jets, and the width of the emission line. The 
+        picture below depicts the various classifications:
+    </p>
 
-<h2 id="writing-code-blocks">Writing code blocks</h2>
+    <figure style="text-align: center;">
+        <img src="/assets/images/2023-02-10-talk/figure2.jpg" alt="classifications of AGN">
+        <figcaption class="post-caption">Figure 2: Classifications of AGNs</figcaption>
+    </figure>
 
-<p>There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, <code>like this</code>. Larger snippets of code can be displayed across multiple lines using triple back ticks:</p>
+    <p class="post">Another interesting consequence of AGN jets is Superluminal motion, which occurs when an emission region moves at a velocity close to the 
+        speed of light along a direction that forms a small angle with the observer's line of sight. The time interval between the emission of two successive 
+        photons, as measured in the observer's frame, is reduced & the source appears to move faster than its actual velocity.
+    </p>
 
-<pre><code>.my-link {
-    text-decoration: underline;
-}
-</code></pre>
+    <p class="post">Interestingly, in 1959, a star-like object was discovered in radio band. An optical starlight source was observed in the same region with 
+        unusual properties, such as emission lines. These were termed quasi-stellar radio sources (in short, Quasars) because the nature of these objects is 
+        entirely unknown. It is hard to prepare a short and appropriate nomenclature for them so that their essential properties are obvious from their name.
+        Quasars, also a type of AGN, are the most luminous objects in our Universe, powered by supermassive black holes which are a billion times more massive
+        than our Sun.
+    </p>
 
-<p>If you want to get really fancy, you can even add syntax highlighting using Rouge.</p>
+    <p class="post">We can detect AGNs through multi-messenger astronomy (gamma-rays through radio waves, jets) and polarization. Polarization observation of 
+        AGN jets provides valuableinformation about their magnetic field. Due to the magnetic field's twisting, we can observe the frame-dragging effect of a 
+        spinning black hole and the differential rotation of the accretion disk
+    </p>
 
-<p><img src="/affiliates-jekyll-theme/assets/images/3.jpg" alt="walking" /></p>
+    <p class="post">A few ground and space observatories to detect the AGN mechanisms are: EGRET(Energetic Gamma Ray Experiment Telescope), FGST (Fermi 
+        Gamma-ray Space Telescope), SWIFT, India's AstroSAT, our ARIES's very own DOT 3.6m (Devesthal Optical Telescope). 
+    </p>
 
-<h2 id="reference-lists">Reference lists</h2>
+    <p class="post">Through studying AGN, we can enhance our understanding of the origin of jets, emission mechanism, accretion disk, supermassive blackhole, 
+        extragalactic sources, and early Universe, and hence, test the general theory of relativity.
+    </p>
 
-<p>The quick brown jumped over the lazy.</p>
+    <p class="post">Some of the numerous open questions in this field?
+        <ul class="post">
+            <li>Where along the jet, do the high-energy and very high-energy y-ray emissions
+                predominantly originate?
+            </li>
+            <li>Whether the high energy emission mechanism is leptonic, hadronic, or mixed?
+            </li>
+        </ul>
+    </p>
 
-<p>Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.</p>
+    <figure>
+        <img src="/assets/images/2023-02-10-talk/figure3.png" alt="krishna explaining">
+        <figcaption class="post-caption">Figure 3: Dr. Krishna explaining the radiative processes involved in the jet emissions</figcaption>
+    </figure>
 
-<h2 id="full-html">Full HTML</h2>
+</body>
+</html>]]></content><author><name>krishna</name></author><category term="AGN" /><category term="Relativistic Jets" /><category term="Accretion Disk" /><summary type="html"><![CDATA[Active galaxies are highly luminous astrophysical sources in the universe powered by “supermassive black holes” via processes known as “accretion”. They contain a highly bright, compact region at the galaxy’s center called “active galactic nuclei” (AGN). Their emission spreads over a wide range of frequencies through radio to γ-rays. Both thermal and non-thermal radiations from different components of AGN contribute to the total observed emission. They exhibit extreme variations ranging from all the time-scale from minutes to years across the electromagnetic band. These variations occur as flares or quiescent/low-activity states. Studying the cause for such physical properties of AGNs through multi-frequency data using ground and space-based observatories has been found to be one of the most effective ways in the past. Despite such studies in various wavebands, there are several questions for which answers are not fully understood. In this talk, the speaker will briefly introduce AGN and its current understanding status, along with the scope of AGN research.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-02-10-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-02-10-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Eyes on the Sky: Current and upcoming telescopes of this decade</title><link href="http://localhost:4000/Eyes-on-the-sky/" rel="alternate" type="text/html" title="Eyes on the Sky: Current and upcoming telescopes of this decade" /><published>2023-02-03T00:00:00+00:00</published><updated>2023-02-03T00:00:00+00:00</updated><id>http://localhost:4000/Eyes-on%20-the-sky</id><content type="html" xml:base="http://localhost:4000/Eyes-on-the-sky/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">The multi-wavelength and multi-messenger information received from the cosmic objects serves as a laboratory for astronomers to 
+            understand the universe. With technology progressing at a rapid rate, how can astronomy lag behind? Already, there are multiple telescopes with
+            apertures of 10-meter class and networks of telescopes operating across the globe, along with many multi-wavelength telescopes orbiting the earth.
+            Data obtained from these telescopes have revolutionezed our understanding in the recent past. As a natural progression, the era of next-generation 
+            telescopes started with the JWST launch last year. With multiple exciting projects lined up this decade, we can expect to get many new results with
+            better data and enhanced precision.
+        </p>
+        <hr>    
+    </blockquote>
 
-<p>Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:</p>
+    <p class="post"> Welcome to the first talk organized by the ARIES Science Club! Vivek Kr. Jha presented the first talk. He is also the mentor of our ARIES
+        Science Club (ASC).The talk started with a basic introduction to telescopes. There are various types of telescopes depending on the wavelength we want
+        to observe and the resolution that can be achieved. For example, optical and Radio waves can be observed from ground-based telescopes, whereas the same
+        is not feasible for infrared, UV, and X-ray wavebands. To tackle that, we send the telescopes to specific points in higher atmosphere or space. Also,
+        we have telescopes of different sizes and arrangements with different resolutions and use cases. For example, radio observations need a very large 
+        aperture of the telescope, which is very difficult to make with a single disc antenna. For that array of small antennas is installed in a large open 
+        area.
+    </p>
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></p>]]></content><author><name>sal</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[There are lots of powerful things you can do with the Markdown editor]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/4.jpg" /><media:content medium="image" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Red Riding Hood</title><link href="http://localhost:4000/affiliates-jekyll-theme/red-riding/" rel="alternate" type="text/html" title="Red Riding Hood" /><published>2020-01-12T00:00:00+00:00</published><updated>2020-01-12T00:00:00+00:00</updated><id>http://localhost:4000/affiliates-jekyll-theme/red-riding</id><content type="html" xml:base="http://localhost:4000/affiliates-jekyll-theme/red-riding/"><![CDATA[<p>The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</p>
+    <p class="post"> The talk started with a basic introduction to telescopes. There are various types of telescopes depending on the wavelength we want to
+        observe and the resolution that can be achieved. For example, optical and Radio waves can be observed from ground-based telescopes, whereas the same 
+        is not feasible for infrared, UV, and X-ray wavebands. To tackle that, we send the telescopes to specific points in higher atmosphere or space. Also, 
+        we have telescopes of different sizes and arrangements with different resolutions and use cases. For example, radio observations need a very large 
+        aperture of the telescope, which is very difficult to make with a single disc antenna. For that array of small antennas is installed in a large open 
+        area.
+    </p>
 
-<p>An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.</p>
+    <figure>
+        <img src="/assets/images/2023-02-03-talk/image1.jpg" alt="various sizes of telescope">
+        <figcaption class="post-caption">Figure 1: Upocoming telescopes sizes</figcaption>
+    </figure>
 
-<blockquote>
-  <p>It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.</p>
-</blockquote>
+    <figure>
+        <img src="/assets/images/2023-02-03-talk/image2.png" alt="size of telescopes">
+        <figcaption class="post-caption">Figure 2: Comparison of size of various telescopes</figcaption>
+    </figure>
+    
+     <p class="post">The speaker takes everyone through the journey of the capabilities of different telescopes, mainly those with a size greater than 8 meters.
+        To list a few:
+        <ul class="post">
+            <li><em>South African Large Telescope (SALT)</em>: This is the largest single optical telescope in the southern hemisphere. However, it has a major 
+                drawback. It cannot be steered to change the angle of the telescope, hence limiting the observations to a relatively small ring of the sky.
+            </li>
+            <li><em>Very Large Telescope (VLT)</em>: With its set of four 8.2 meter telescopes, it is one of the most technologically advanced telescope 
+                systems due to its ability to perform interferometry using its built-in MUSE equipment. In interferometry, we divide a wide field of view 
+                (large fringe) into smaller slits and then record their interference fringes created by combining the light from multiple telescopes. For 
+                example, our galaxy is quite wide apart and needs multiple slits to cover its boundaries.
+            </li>
+        </ul>
+    </p>
 
-<p>The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.</p>
+    <p class="post">Next the speaker talks about Radio telescopes a little bit. Optical wavebands are limited, but Radio has a large bandpass. Also, radio 
+        observations can be taken in the daytime, unlike optical. The most advanced telescope for Radio observation is <em>VLA</em> in US and <em>ALMA</em> in 
+        Europe. ALMA is the costliest ground-based telescope to be built to date, with 66 radio antennas in operation. The <em>Five hundred meter Aperture 
+        Spherical Telescope (FAST)</em> in Guizhou, China, is the world’s largest field-aperture telescope. It works in the radio band 70 MHz- 3.0 GHz. India 
+        has its own telescopes for radio observation. The <em>Giant Meterwave Radio Telescope (GMRT)</em> in Pune is the largest radio telescope in India. The
+        main goal of this telescope was to observe the 21 cm line of the neutral Hydrogen. The USPs of this telescope are the 153 and 325 MHz frequencies, 
+        which are critical in Radio astronomy.
+    </p> 
 
-<p>As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.</p>]]></content><author><name>sal</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/6.jpg" /><media:content medium="image" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/6.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">An example of a post here</title><link href="http://localhost:4000/affiliates-jekyll-theme/we-all-wait-for-summer/" rel="alternate" type="text/html" title="An example of a post here" /><published>2020-01-12T00:00:00+00:00</published><updated>2020-01-12T00:00:00+00:00</updated><id>http://localhost:4000/affiliates-jekyll-theme/we-all-wait-for-summer</id><content type="html" xml:base="http://localhost:4000/affiliates-jekyll-theme/we-all-wait-for-summer/"><![CDATA[<p>We can put the updates about the science club here only. The talks which took place, the updates about the speaker and also the related web links for these talks can be put here.</p>
+    <p class="post">Other than optical and Radio telescopes, we also have UV and X-ray telescopes in space. The most popular globally is the 32 years old 
+        <em>Hubble Space Telescope (HST)</em>, which has made fundamental contributions to the field. India’s <em>AstroSat</em>, launched in 2015, can also 
+        detect X-ray polarization, a unique attribute of this telescope. Now, modern-day astronomy is progressing from multi-wavelength to multi-messenger 
+        observation. By multi-messenger observation, it is implied that we are also looking for messengers other than photons, like neutrinos, cosmic rays, 
+        and gravitational waves.
+    </p>
 
-<p>This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that <a href="#">education should equip</a> them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.</p>
+    <p class="post">
+        A few take-home points from this lecture:
+        <ul class="post">
+            <li>Telescopes have increased in size over time, and the trend will continue in the coming future.</li>
+            <li>A vast number of telescopes are coming up both on Earth and in space.</li>
+            <li>They continue to expand our knowledge further, probing the Universe closer and closer to the Big Bang.</li>
+            <li>Multi-messenger astronomy is the new norm, as has been with GW detection recently.</li>
+            <li>India is part of a handful of major projects like SKA, TMT, and GMRT, with a possibility of a 10-meter class telescope in the future.</li>
+        </ul> 
+    </p>
 
-<p>It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.</p>]]></content><author><name>Sal</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[We can put the updates about the science club here only. The talks which took place, the updates about the speaker and also the related web links for these talks can be put here.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/kodai.jpg" /><media:content medium="image" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/kodai.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Markdown Example</title><link href="http://localhost:4000/affiliates-jekyll-theme/markup-example/" rel="alternate" type="text/html" title="Markdown Example" /><published>2020-01-11T00:00:00+00:00</published><updated>2020-01-11T00:00:00+00:00</updated><id>http://localhost:4000/affiliates-jekyll-theme/markup-example</id><content type="html" xml:base="http://localhost:4000/affiliates-jekyll-theme/markup-example/"><![CDATA[<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated. Something.</p>
-
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>john</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Something.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/6.jpg" /><media:content medium="image" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/6.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is Intelligence Enough</title><link href="http://localhost:4000/affiliates-jekyll-theme/is-intelligence-enough/" rel="alternate" type="text/html" title="Is Intelligence Enough" /><published>2019-01-12T00:00:00+00:00</published><updated>2019-01-12T00:00:00+00:00</updated><id>http://localhost:4000/affiliates-jekyll-theme/is-intelligence-enough</id><content type="html" xml:base="http://localhost:4000/affiliates-jekyll-theme/is-intelligence-enough/"><![CDATA[<p>Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.</p>
-
-<blockquote>
-  <p>We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically.</p>
-</blockquote>
-
-<p>Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.</p>
-
-<p>The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.</p>
-
-<p>The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?</p>
-
-<p>We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.</p>]]></content><author><name>sal</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/5.jpg" /><media:content medium="image" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/5.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tree of Codes</title><link href="http://localhost:4000/affiliates-jekyll-theme/tree-of-codes/" rel="alternate" type="text/html" title="Tree of Codes" /><published>2018-01-12T00:00:00+00:00</published><updated>2018-01-12T00:00:00+00:00</updated><id>http://localhost:4000/affiliates-jekyll-theme/tree-of-codes</id><content type="html" xml:base="http://localhost:4000/affiliates-jekyll-theme/tree-of-codes/"><![CDATA[<p>The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</p>
-
-<p>As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.</p>
-
-<blockquote>
-  <p>It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.</p>
-</blockquote>
-
-<p>An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.</p>
-
-<p>The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.</p>]]></content><author><name>sal</name></author><category term="Jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/2.jpg" /><media:content medium="image" url="http://localhost:4000/affiliates-jekyll-theme/assets/images/2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</body>
+</html>]]></content><author><name>vivek</name></author><category term="Telescopes" /><category term="Multi-Messenger Information" /><summary type="html"><![CDATA[The multi-wavelength and multi-messenger information received from the cosmic objects serves as a laboratory for astronomers to understand the universe. With technology progressing at a rapid rate, how can astronomy lag behind? Already, there are multiple telescopes with apertures of 10-meter class and networks of telescopes operating across the globe, along with many multi-wavelength telescopes orbiting the earth. Data obtained from these telescopes have revolutionezed our understanding in the recent past. As a natural progression, the era of next-generation telescopes started with the JWST launch last year. With multiple exciting projects lined up this decade, we can expect to get many new results with better data and enhanced precision.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-02-03-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-02-03-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

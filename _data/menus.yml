@@ -7,12 +7,15 @@ topmenu:
 - title: About Us
   url: "about/"
 
-- title: Get in touch
-  url: "contact/"
+- title: Gallery
+  url: "gallery/"
+  
+- title: Submit Abstract
+  url: "submitabstract/"
 
-- title: Contribute  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-  class: "ml-2 btn btn-dark text-white px-3"
+- title: Join Us  
+  url: "/joinus/"
+  #class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
 # Footer Menu

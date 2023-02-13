@@ -83,7 +83,10 @@ gtag('config', '{{site.ganalytics}}');
               <li class="nav-item">
                 <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
               </li>
+              
+
               {% endfor %}
+             
             </ul>
           </div>
 
@@ -103,15 +106,12 @@ gtag('config', '{{site.ganalytics}}');
 <footer class="footer container text-center">  
 
   <!-- CREDITS BEGIN.-->
-  <!-- If you want to support my work, please donate to remove the credits. This helps me keep it up and running: https://www.wowthemes.net/donate/ -->
   <div class="credits mx-auto text-center mb-3">
-    <a class="hover-opacity font-weight-bold" href="https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/">
-      <img src="{{site.baseurl}}/assets/images/credits.png" alt="powered by WowThemes">
-    </a>
-  </div>
+    <h4><em>“Somewhere, something incredible is waiting to be known.”</em> - Carl Sagan</h4>
+  </div> 
   <!-- CREDITS END -->
 
-  <ul class="p-0 mb-1 small">
+  <!-- <ul class="p-0 mb-1 small">
     {% for item in site.data.menus.footermenu %}
     <li>
       <a href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
@@ -120,8 +120,8 @@ gtag('config', '{{site.ganalytics}}');
     </ul>
     <div class="copyright small">
        Copyright © {{site.title}}. All rights reserved.
-    </div>
-</footer>
+    </div> -->
+</footer> 
 
 <!-- JavaScript
 ================================================== -->    

@@ -1,10 +1,22 @@
-<div class="sidebar sticky-top">        
-    <div class="sidebar-section">
-        <h5><span>Email updates</span></h5>
-        {% include newsletter.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <div class="sidebar sticky-top">        
+        <div class="sidebar-section">
+            <h5><span>Contact Us</span></h5>
+            {% include newsletter.html %}
+        </div>
+        <div class="sidebar-section ">
+            <h5><span>Upcoming Talk</span></h5>
+            <img class="upcoming-profile" src="https://www.aries.res.in/sites/default/files/pictures/2022-12/IMG_krishnaMohana.JPG" alt="Krishna-image">
+            <p class="upcoming-title"><strong><a href="upcoming">Active Galaxies: Most Powerful Objects in the Universe - An Overview </a></strong><p>
+            <p><strong> By Krishna Mohana on 10th Feb at 06:30 pm</strong></p>
+        </div>
     </div>
-    <div class="sidebar-section">
-        <h5><span>Extra things here</span></h5>
-        <img src="{{site.baseurl}}/assets/images/ad.png">
-    </div>
-</div>
+</body>
+</html>
+

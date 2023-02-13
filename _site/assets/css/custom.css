@@ -3,4 +3,81 @@ Don't want to use sass and simply modify the stylesheet in the old css fashion?
 Just customize your theme here.
 ================================================== */
 
-body {}
+/*---------------------------Home Page---------------------------*/
+.index-cover-pic {
+    background-color: #EAF6F6;
+    padding: 50px;
+}
+
+/*---------------------------For about us-------------------------*/
+
+ 
+.block-image {
+    position: absolute;
+    border-radius: 100%;
+}
+
+.block-text {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.block-title {
+    position: absolute;
+    margin-left: 200px;
+}
+
+.block {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 130px;
+    padding: 50px;
+}
+
+.cover-pic {
+    height: 100%;
+    width: 100%;
+}
+
+/*---.image-block {
+    display: inline-block;
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+   
+}
+
+.images-circ {
+    border-radius: 100%;
+    padding: 0px;
+}-----*/
+
+
+/*--------------------------------Side Bar--------------------------*/
+.upcoming-profile {
+    width: 300px;
+    padding: 10px 0;
+}
+
+.upcoming-title {
+    font-size: large;
+    text-align: center;
+}
+
+/*--------------------Posts-------------------------*/
+.post {
+    text-align: justify;
+}
+
+.post-caption {
+    text-align: center;
+}
+
+/*---------------------Gallery-----------------------*/
+.gallery-pic {
+    width: fit-content;
+    height: auto;
+}
