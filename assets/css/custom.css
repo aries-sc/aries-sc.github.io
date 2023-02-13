@@ -6,7 +6,7 @@ Just customize your theme here.
 /*---------------------------Home Page---------------------------*/
 .index-cover-pic {
     background-color: #EAF6F6;
-    padding: 50px;
+    padding: 3.125rem;
 }
 
 /*---------------------------For about us-------------------------*/
@@ -14,32 +14,32 @@ Just customize your theme here.
  
 .block-image {
     position: absolute;
-    border-radius: 100%;
+    border-radius: 6rem;
 }
 
 .block-text {
     position: absolute;
-    margin-left: 200px;
-    margin-top: 50px;
-    margin-right: 10px;
+    margin-left: 12.5rem;
+    margin-top: 3.125rem;
+    margin-right: 0.625rem;
     text-align: justify;
 }
 
 .block-title {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 12.5rem;
 }
 
 .block {
     position: relative;
     margin-top: 0;
-    margin-bottom: 130px;
-    padding: 50px;
+    margin-bottom: 8.125rem;
+    padding: 3.125rem;
 }
 
 .cover-pic {
-    height: 100%;
-    width: 100%;
+    height: 1rem;
+    width: 1rem;
 }
 
 /*---.image-block {
@@ -58,8 +58,8 @@ Just customize your theme here.
 
 /*--------------------------------Side Bar--------------------------*/
 .upcoming-profile {
-    width: 300px;
-    padding: 10px 0;
+    width: 18.75rem;
+    padding: 0.625rem 0;
 }
 
 .upcoming-title {
