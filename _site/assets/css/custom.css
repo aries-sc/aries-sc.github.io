@@ -13,33 +13,33 @@ Just customize your theme here.
 
  
 .block-image {
-    position: absolute;
-    border-radius: 6rem;
+    position: relative;
+    width: 10rem;
+    height: auto;
+    border-radius: 50rem;
+    margin: 1rem 0 2rem 0;
 }
 
 .block-text {
-    position: absolute;
-    margin-left: 12.5rem;
-    margin-top: 3.125rem;
-    margin-right: 0.625rem;
+    position: relative;
+    margin: 0rem 0.625rem 0.5rem 12.5rem;
     text-align: justify;
 }
 
 .block-title {
-    position: absolute;
-    margin-left: 12.5rem;
+    position: relative;
+    margin: -12rem 0 0.5rem 12.5rem;
 }
 
 .block {
     position: relative;
-    margin-top: 0;
-    margin-bottom: 8.125rem;
-    padding: 3.125rem;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 2rem;
 }
 
 .cover-pic {
-    height: 1rem;
-    width: 1rem;
+    height: auto;
+    width: 70rem;
 }
 
 /*---.image-block {
