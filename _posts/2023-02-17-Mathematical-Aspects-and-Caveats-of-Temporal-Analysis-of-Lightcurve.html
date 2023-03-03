@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Mathematical Aspects and Caveats of Temporal Analysis of Light curve"
+author: shubham
+categories: [ Blazar, Time Series Analysis, LombScargle Periodogram]
+image: assets/images/2023-02-17-talk/cover-pic.jpg
+---
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">
+            In the talk, I will briefly start with different behaviors that may appear in and the different samplings of the lightcurves along with the issue 
+            to be wary of, while flux to magnitude conversion. The talk will be mainly oriented to periodic search in the lightcurve. The two types of Fourier 
+            transforms along with the utility of one over the other will be discussed. I will present some real lightcurves, their temporal analyses that are 
+            directly implicated to the topics covered and discuss various properties of a periodogram with the dependence of their peak significance onto 
+            their normalizations. A brief disclosure of convolution and its versatility over binning will be discussed as well and if time permits I will also 
+            go over Wavelet analysis and its superiority over periodograms.
+        </p>
+    </blockquote>
+
+    <p>
+        This talk will mainly focus on the mathematical aspects of various techniques used to analyze the light curve of the observed data. Light curves are 
+        plots showing the variation in brightness or flux of an object over time. This is an essential tool in observational astronomy.
+    </p>
+
+    <p>
+        There are mainly two types of sampling of lightcurve, even and uneven. Mixtures of even and uneven samplings (irrespective of the analysis) should be 
+        such that our analysis handles both types of samplings. Any periodic variation may not persist for long due to highly unpredictable behaviour.
+    </p>
+
+    <figure>
+        <img src="/assets/images/2023-02-17-talk/figure1.jpg" alt="Lightcurve sampling">
+        <figcaption class="post-caption">Figure 1: Light curve sampling showing high fluctuations in data</figcaption>
+    </figure>
+
+    <p>
+        Furthermore, we use Periodograms to determine the periodicity of an object from the light curve. The periodogram is represented by:
+    </p>
+
+    <figure style="margin-left: 12rem; width: 20rem;">
+        <img src="/assets/images/2023-02-17-talk/equation.png" alt="equation">
+    </figure>
+
+</body>
+</html>

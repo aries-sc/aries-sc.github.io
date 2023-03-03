@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-03-03T04:52:10+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Active Galaxies: Most Powerful Objects in the Universe – An Overview</title><link href="http://localhost:4000/Active-Galaxies/" rel="alternate" type="text/html" title="Active Galaxies: Most Powerful Objects in the Universe – An Overview" /><published>2023-02-10T00:00:00+00:00</published><updated>2023-02-10T00:00:00+00:00</updated><id>http://localhost:4000/Active-Galaxies</id><content type="html" xml:base="http://localhost:4000/Active-Galaxies/"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-03-03T08:41:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Mathematical Aspects and Caveats of Temporal Analysis of Light curve</title><link href="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/" rel="alternate" type="text/html" title="Mathematical Aspects and Caveats of Temporal Analysis of Light curve" /><published>2023-02-17T00:00:00+00:00</published><updated>2023-02-17T00:00:00+00:00</updated><id>http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve</id><content type="html" xml:base="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">
+            In the talk, I will briefly start with different behaviors that may appear in and the different samplings of the lightcurves along with the issue 
+            to be wary of, while flux to magnitude conversion. The talk will be mainly oriented to periodic search in the lightcurve. The two types of Fourier 
+            transforms along with the utility of one over the other will be discussed. I will present some real lightcurves, their temporal analyses that are 
+            directly implicated to the topics covered and discuss various properties of a periodogram with the dependence of their peak significance onto 
+            their normalizations. A brief disclosure of convolution and its versatility over binning will be discussed as well and if time permits I will also 
+            go over Wavelet analysis and its superiority over periodograms.
+        </p>
+    </blockquote>
+
+    <p>
+        This talk will mainly focus on the mathematical aspects of various techniques used to analyze the light curve of the observed data. Light curves are 
+        plots showing the variation in brightness or flux of an object over time. This is an essential tool in observational astronomy.
+    </p>
+
+    <p>
+        There are mainly two types of sampling of lightcurve, even and uneven. Mixtures of even and uneven samplings (irrespective of the analysis) should be 
+        such that our analysis handles both types of samplings. Any periodic variation may not persist for long due to highly unpredictable behaviour.
+    </p>
+
+    <figure>
+        <img src="/assets/images/2023-02-17-talk/figure1.jpg" alt="Lightcurve sampling">
+        <figcaption class="post-caption">Figure 1: Light curve sampling showing high fluctuations in data</figcaption>
+    </figure>
+
+    <p>
+        Furthermore, we use Periodograms to determine the periodicity of an object from the light curve. The periodogram is represented by:
+    </p>
+
+    <figure style="margin-left: 12rem; width: 20rem;">
+        <img src="/assets/images/2023-02-17-talk/equation.png" alt="equation">
+    </figure>
+
+</body>
+</html>]]></content><author><name>shubham</name></author><category term="Blazar" /><category term="Time Series Analysis" /><category term="LombScargle Periodogram" /><summary type="html"><![CDATA[In the talk, I will briefly start with different behaviors that may appear in and the different samplings of the lightcurves along with the issue to be wary of, while flux to magnitude conversion. The talk will be mainly oriented to periodic search in the lightcurve. The two types of Fourier transforms along with the utility of one over the other will be discussed. I will present some real lightcurves, their temporal analyses that are directly implicated to the topics covered and discuss various properties of a periodogram with the dependence of their peak significance onto their normalizations. A brief disclosure of convolution and its versatility over binning will be discussed as well and if time permits I will also go over Wavelet analysis and its superiority over periodograms.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-02-17-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-02-17-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Active Galaxies: Most Powerful Objects in the Universe – An Overview</title><link href="http://localhost:4000/Active-Galaxies/" rel="alternate" type="text/html" title="Active Galaxies: Most Powerful Objects in the Universe – An Overview" /><published>2023-02-10T00:00:00+00:00</published><updated>2023-02-10T00:00:00+00:00</updated><id>http://localhost:4000/Active-Galaxies</id><content type="html" xml:base="http://localhost:4000/Active-Galaxies/"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
