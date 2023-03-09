@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-03-03T08:41:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Mathematical Aspects and Caveats of Temporal Analysis of Light curve</title><link href="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/" rel="alternate" type="text/html" title="Mathematical Aspects and Caveats of Temporal Analysis of Light curve" /><published>2023-02-17T00:00:00+00:00</published><updated>2023-02-17T00:00:00+00:00</updated><id>http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve</id><content type="html" xml:base="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-03-09T10:57:55+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Mathematical Aspects and Caveats of Temporal Analysis of Light curve</title><link href="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/" rel="alternate" type="text/html" title="Mathematical Aspects and Caveats of Temporal Analysis of Light curve" /><published>2023-02-17T00:00:00+00:00</published><updated>2023-02-17T00:00:00+00:00</updated><id>http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve</id><content type="html" xml:base="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,9 +35,34 @@
         Furthermore, we use Periodograms to determine the periodicity of an object from the light curve. The periodogram is represented by:
     </p>
 
-    <figure style="margin-left: 12rem; width: 20rem;">
+    <figure style="margin:0 8rem 0 8rem; width: 20rem;">
         <img src="/assets/images/2023-02-17-talk/equation.png" alt="equation">
     </figure>
+
+    <p>
+        &#936<sub>1</sub>(&#937) and &#936 <sub>2</sub>(&#937) are real and imaginary parts of the Fourier transform of any time-varying function, where &#937 
+        is the frequency.
+    </p>
+
+    <p>
+        Here, "B" is quite important, as it is one of the roots to form periodogram statistics like individual peak significance and global FAP levels. We can 
+        also consider it as a normalization constant for statistical balance. Periodograms also solve the problem of discreteness of our usual Fourier 
+        transform method. However, we have an additional issue of even and uneven sampling! This is solved using the Lomb Scargle Periodogram (LSP), where the 
+        periodogram is written in sine and cosine terms. The Lomb-Scargle periodogram is a well-known algorithm for detecting and characterizing periodic 
+        signals in unevenly-sampled data. If the Relative change in frequency is constant, they appear equidistant in log space. Hence, it is better for 
+        harmonic search because they will be evenly separated.
+    </p>
+
+    <figure>
+        <img src="/assets/images/2023-02-17-talk/figure2.jpg" alt="LS Periodogram">
+        <figcaption class="post-caption">Figure 2: LS Periodogram</figcaption>
+    </figure>
+
+    <p>
+        Furthermore, the talk continues by discussing the technique of <em>Convolution</em>. Convolution amounts to sliding one function past the other, 
+        integrating at each step. Such an operation is commonly used in smoothing a function. It is more versatile than binning (taking average), and binning 
+        is a particular case of smoothing through convolution.
+    </p>
 
 </body>
 </html>]]></content><author><name>shubham</name></author><category term="Blazar" /><category term="Time Series Analysis" /><category term="LombScargle Periodogram" /><summary type="html"><![CDATA[In the talk, I will briefly start with different behaviors that may appear in and the different samplings of the lightcurves along with the issue to be wary of, while flux to magnitude conversion. The talk will be mainly oriented to periodic search in the lightcurve. The two types of Fourier transforms along with the utility of one over the other will be discussed. I will present some real lightcurves, their temporal analyses that are directly implicated to the topics covered and discuss various properties of a periodogram with the dependence of their peak significance onto their normalizations. A brief disclosure of convolution and its versatility over binning will be discussed as well and if time permits I will also go over Wavelet analysis and its superiority over periodograms.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-02-17-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-02-17-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Active Galaxies: Most Powerful Objects in the Universe – An Overview</title><link href="http://localhost:4000/Active-Galaxies/" rel="alternate" type="text/html" title="Active Galaxies: Most Powerful Objects in the Universe – An Overview" /><published>2023-02-10T00:00:00+00:00</published><updated>2023-02-10T00:00:00+00:00</updated><id>http://localhost:4000/Active-Galaxies</id><content type="html" xml:base="http://localhost:4000/Active-Galaxies/"><![CDATA[<!DOCTYPE html>

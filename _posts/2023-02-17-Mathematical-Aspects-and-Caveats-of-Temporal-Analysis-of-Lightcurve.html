@@ -45,9 +45,34 @@ image: assets/images/2023-02-17-talk/cover-pic.jpg
         Furthermore, we use Periodograms to determine the periodicity of an object from the light curve. The periodogram is represented by:
     </p>
 
-    <figure style="margin-left: 12rem; width: 20rem;">
+    <figure style="margin:0 8rem 0 8rem; width: 20rem;">
         <img src="/assets/images/2023-02-17-talk/equation.png" alt="equation">
     </figure>
+
+    <p>
+        &#936<sub>1</sub>(&#937) and &#936 <sub>2</sub>(&#937) are real and imaginary parts of the Fourier transform of any time-varying function, where &#937 
+        is the frequency.
+    </p>
+
+    <p>
+        Here, "B" is quite important, as it is one of the roots to form periodogram statistics like individual peak significance and global FAP levels. We can 
+        also consider it as a normalization constant for statistical balance. Periodograms also solve the problem of discreteness of our usual Fourier 
+        transform method. However, we have an additional issue of even and uneven sampling! This is solved using the Lomb Scargle Periodogram (LSP), where the 
+        periodogram is written in sine and cosine terms. The Lomb-Scargle periodogram is a well-known algorithm for detecting and characterizing periodic 
+        signals in unevenly-sampled data. If the Relative change in frequency is constant, they appear equidistant in log space. Hence, it is better for 
+        harmonic search because they will be evenly separated.
+    </p>
+
+    <figure>
+        <img src="/assets/images/2023-02-17-talk/figure2.jpg" alt="LS Periodogram">
+        <figcaption class="post-caption">Figure 2: LS Periodogram</figcaption>
+    </figure>
+
+    <p>
+        Furthermore, the talk continues by discussing the technique of <em>Convolution</em>. Convolution amounts to sliding one function past the other, 
+        integrating at each step. Such an operation is commonly used in smoothing a function. It is more versatile than binning (taking average), and binning 
+        is a particular case of smoothing through convolution.
+    </p>
 
 </body>
 </html>
