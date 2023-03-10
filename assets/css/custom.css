@@ -68,6 +68,13 @@ Just customize your theme here.
 }
 
 /*--------------------Posts-------------------------*/
+.image {
+    position: relative;
+    /*-----margin: auto 7rem auto 7rem;----*/
+    text-align: center;
+
+}
+
 .post {
     text-align: justify;
 }

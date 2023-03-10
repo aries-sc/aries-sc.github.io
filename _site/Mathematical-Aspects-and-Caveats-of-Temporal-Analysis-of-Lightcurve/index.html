@@ -181,6 +181,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/custom.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <blockquote>
@@ -194,35 +196,35 @@
         </p>
     </blockquote>
 
-    <p>
+    <p class="post">
         This talk will mainly focus on the mathematical aspects of various techniques used to analyze the light curve of the observed data. Light curves are 
         plots showing the variation in brightness or flux of an object over time. This is an essential tool in observational astronomy.
     </p>
 
-    <p>
+    <p class="post">
         There are mainly two types of sampling of lightcurve, even and uneven. Mixtures of even and uneven samplings (irrespective of the analysis) should be 
         such that our analysis handles both types of samplings. Any periodic variation may not persist for long due to highly unpredictable behaviour.
     </p>
 
-    <figure>
+    <figure class="image">
         <img src="/assets/images/2023-02-17-talk/figure1.jpg" alt="Lightcurve sampling">
         <figcaption class="post-caption">Figure 1: Light curve sampling showing high fluctuations in data</figcaption>
     </figure>
 
-    <p>
+    <p class="post">
         Furthermore, we use Periodograms to determine the periodicity of an object from the light curve. The periodogram is represented by:
     </p>
 
-    <figure style="margin:0 8rem 0 8rem; width: 20rem;">
-        <img src="/assets/images/2023-02-17-talk/equation.png" alt="equation">
-    </figure>
+    <p class="post">
+        $$P(\omega) \equiv B.\left[(\psi_1(\omega))^2 + (\psi_2(\omega))^2 \right]  $$
+    </p>
 
-    <p>
+    <p class="post">
         &#936<sub>1</sub>(&#937) and &#936 <sub>2</sub>(&#937) are real and imaginary parts of the Fourier transform of any time-varying function, where &#937 
         is the frequency.
     </p>
 
-    <p>
+    <p class="post">
         Here, "B" is quite important, as it is one of the roots to form periodogram statistics like individual peak significance and global FAP levels. We can 
         also consider it as a normalization constant for statistical balance. Periodograms also solve the problem of discreteness of our usual Fourier 
         transform method. However, we have an additional issue of even and uneven sampling! This is solved using the Lomb Scargle Periodogram (LSP), where the 
@@ -231,15 +233,57 @@
         harmonic search because they will be evenly separated.
     </p>
 
-    <figure>
+    <figure class="image">
         <img src="/assets/images/2023-02-17-talk/figure2.jpg" alt="LS Periodogram">
         <figcaption class="post-caption">Figure 2: LS Periodogram</figcaption>
     </figure>
 
-    <p>
+    <p class="post">
         Furthermore, the talk continues by discussing the technique of <em>Convolution</em>. Convolution amounts to sliding one function past the other, 
         integrating at each step. Such an operation is commonly used in smoothing a function. It is more versatile than binning (taking average), and binning 
         is a particular case of smoothing through convolution.
+    </p>
+
+    <p class="post">
+        $$ (f * g)(t) \approx \int_{-\infty}^{\infty} f(\tau)g(t-\tau) d\tau $$
+    </p>
+
+    <p class="post">  
+        <ul class="post">
+            <li>If g(x) = Probability Distribution Function such that &#8747 g(x).dx = 1, then convolution becomes a moving average with the desired PDF.</li>
+            <li>If g(x) is a rectangular wave function with length N and height 1/N, then the convolution becomes averaging over N data points with equal 
+                weightage.</li>
+            <li>With proper arbitrary g(x), small, medium and large variations or even flares could be smoothed.</li>
+        </ul>
+    </p>
+
+    <p class="post">
+        Mathematically, the fact of the invertibility of the convolution mapping (one-to-one) implies that the information content of the convolution is 
+        identical to the information content of the original image. Convolution decreases the white noise and does not affect the low-frequency region but the 
+        high-frequency region because fluctuations are observed in high-frequency regions. At the same time, the binning (onto, not one-to-one) contains less 
+        information and reduces power.
+    </p>
+
+    <p class="post">
+        If we combine LSP and Convolution properties, we get some additional benefits, for example, if there are any gaps in our observed data, then LSP 
+        combined convolution takes care of it.
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-02-17-talk/figure3.jpg" alt="periodogram">
+        <figcaption class="post-caption">Figure 3: Periodograms of Original vs. Convolution vs. Binning</figcaption>
+    </figure>
+
+    <p class="post">
+        <ul class="post">
+            A few take-home points from the talk:
+            <li>There happens to be a true hidden power spectrum over which the periodogram is distributed in a chi-square fashion with two degrees of 
+                freedom.</li>
+            <li>The noise reduction in the high-frequency regime before the Nyquist frequency is still unexplored.</li>
+            <li>The Lomb-Scargle Periodogram cannot tell the time of inset or disappearance of any significant peak.</li>
+            <li>The Lomb-Scargle Periodogram cannot assess the time evolution of an already existing significant peak.</li>
+            <li>The Wavelet analysis is capable of handling the last two inefficacy of LSP.</li>
+        </ul>
     </p>
 
 </body>
@@ -273,11 +317,11 @@
                 				
 				<div class="row post-top-meta">
 					<div class="col-md-2">
-						<img class="author-thumb" src="/" alt="">
+						<img class="author-thumb" src="/assets/images/authors/subham.jpg" alt="Shubham Kishore">
 					</div>
 					<div class="col-md-10">
-						<a target="_blank" class="link-dark" href=""></a><a target="_blank" href="" class="btn follow">Follow</a>
-						<span class="author-description"></span>						
+						<a target="_blank" class="link-dark" href="">Shubham Kishore</a><a target="_blank" href="" class="btn follow">Follow</a>
+						<span class="author-description">Shubham Kishore is a research scholar at ARIES, Nainital. He is currently doing research in blazars.</span>						
 					</div>
 				</div>				
                 
@@ -358,7 +402,7 @@
         </div>
         <div class="sidebar-section ">
             <h5><span>Upcoming Talk</span></h5>
-            <img class="upcoming-profile" src="/assets/images/profile-pic/purvi.jpg" alt="purvi-image">
+            <img class="upcoming-profile" src="/assets/images/upcoming_talk/2023-03-10.png" alt="purvi-image">
             <p class="upcoming-title"><strong><a href="upcoming">Fantastic Instruments and How to understand them!
                 </a></strong><p>
             <p style="text-align: center;"><strong> By Purvi Udhwani on 10th March at 06:30 pm</strong></p>

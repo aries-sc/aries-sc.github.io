@@ -39,7 +39,15 @@ authors:
     email: krishna_mohana@aries.res.in
     web:
     twitter: 
-    description: "Dr. krishna Mohana is RA-1 at ARIES, Nainital.dcavdcvasbcavx cbnabnxcvghacvxab bxnac gx cacbxnaghx cmagh"
+    description: "Dr. krishna Mohana is RA-1 at ARIES, Nainital. He is currently doing research in blazars and AGN."
+  shubham:
+    name: Shubham Kishore
+    display_name: Shubham Kishore 
+    avatar: 'assets/images/authors/subham.jpg'
+    email: shubham@aries.res.in
+    web:
+    twitter: 
+    description: "Shubham Kishore is a research scholar at ARIES, Nainital. He is currently doing research in blazars."
 
 # Social
 social:
