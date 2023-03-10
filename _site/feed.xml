@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-03-10T07:28:44+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Mathematical Aspects and Caveats of Temporal Analysis of Light curve</title><link href="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/" rel="alternate" type="text/html" title="Mathematical Aspects and Caveats of Temporal Analysis of Light curve" /><published>2023-02-17T00:00:00+00:00</published><updated>2023-02-17T00:00:00+00:00</updated><id>http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve</id><content type="html" xml:base="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-03-10T17:15:55+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Gamma Ray Bursts</title><link href="http://localhost:4000/Gamma-ray-bursts/" rel="alternate" type="text/html" title="Gamma Ray Bursts" /><published>2023-02-24T00:00:00+00:00</published><updated>2023-02-24T00:00:00+00:00</updated><id>http://localhost:4000/Gamma-ray-bursts</id><content type="html" xml:base="http://localhost:4000/Gamma-ray-bursts/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">
+            Gamma-ray bursts (GRBs) are one of the most energetic and luminous events in the universe. These powerful explosions can last from milliseconds to 
+            minutes, and they can be hundreds of times brighter than a typical supernova and a million trillion times brighter than the Sun. Despite their 
+            discovery decades ago, we still do not fully understand the origins and causes of GRBs. One of the main challenges in studying GRBs is their 
+            classification. To unravel this mystery, various classification schemes have been proposed based on different characteristics of the bursts, such 
+            as duration, hardness, and spectral properties. Join me as we delve into this problem and explore the latest advancements in solving it.
+        </p>
+    </blockquote>
+
+    <p class="post">
+        The talk started with what GRBs are, how we detect them, and why these areas of astrophysics are full of excitement. GRB is the Burst of gamma rays. 
+        “Burst” means a sudden release of emission that lasts from milliseconds to thousands of seconds, and the term gamma is related to the energy of bursts 
+        ranging from 100 KeV to 1 MeV. GRBs are the most luminous event since the BIG Bang. Typically &#947-ray luminosity is ~10<sup>51</sup> - 
+        10<sup>53</sup>  erg s<sup>-1</sup>. This is more than the total energy the Sun releases in its entire lifetime. We can also compare the luminosity of 
+        other objects in the Universe. For example, the luminosity of the Sun is ~10 <sup>33</sup>  erg s <sup>-1</sup> , and the total star-light luminosity 
+        of the Milky Way Galaxy is ~10 <sup>44</sup>erg s <sup>-1</sup>. Even the most energetic Active Galactic Nuclei (AGNs) powered by accreting super-massive black holes only 
+        have a luminosity of ~10 <sup>48</sup>  erg s <sup>-1</sup>.
+    </p>
+    
+    <h5 class="post">How was it Discovered - It was an accident!</h5>
+    <p class="post">
+        In 1945, Hiroshima and Nagasaki of Japan were severely destroyed by atomic bombs released by the United States. After this event, nuclear tests were 
+        banned all over World. United States launched a series of satellites to monitor compliance with the Nuclear Test Ban Treaty signed by the United 
+        States. The discovery of the first GRBs was made in the late 1960s by the military satellite system Vela. Since nuclear energy lies in the gamma 
+        frequency range, they discovered some intense flashes, which was a mystery for a long time. Later, from redshift, they concluded that it was 
+        extragalactic.
+    </p>
+
+    <h5 class="post"> Types of GRBs</h5>
+    <p class="post">
+        Based on T90 (the duration during which the triggering detector detects 5 % to 95 % of the total fluence), there are two types of GRB.
+        <ul class="post">
+            <li>Short GRB (T90 < 2 sec) </li>
+            <li>Long GRB (T90 > 2 sec)</li>
+        </ul>
+        Long GRBs are believed to be associated with the death of some special massive star (Supernova and kilonova). In contrast, short GRBs are associated 
+        with the merger of compact objects such as Neutron Star-Neutron Star or Neutron Star-Black Hole merger.
+    </p>
+
+    <h5 class="post">Why do we need other ways to classify GRB ?</h5>
+    <p class="post">
+        Since the definition of T90 depends on the energy band and sensitivity of the detector. The same burst may have a longer T90 if the detector is more 
+        sensitive or has a softer energy band. Also, the background fluctuations play the villain.
+    </p>
+
+    <h5 class="post">What are the other ways ?</h5>
+    <p class="post">
+        There are two phases in which we observe GRB - one being the Prompt Emission Phase and another being the Afterglow Phase.
+    </p>
+    <p class="post">
+        To point out, we can classify GRBs using the following features:
+        <ul class="post">
+            <li>Hardness Ratio</li>
+            <li>Minimum Variability time scale</li>
+            <li>Spectral Lag</li>
+            <li>Position in Amati Plane</li>
+            <li>Host Properties</li>
+        </ul>
+    </p>
+
+    <h5 class="post">How do we come to know when a GRB takes place? How to detect them?</h5>
+    <p class="post">
+        We use the Gamma-Ray Coordinate Network, which uses a network of various space-based telescopes such as Fermi and Swift. This network notifies us 
+        whenever such a phenomenon takes place. Once notified, we point our optical telescopes in the appropriate direction.
+    </p>
+    
+    <figure class="image">
+        <img src="/assets/images/2023-02-24-talk/figure1.jpg" alt="GCN Network">
+        <figcaption class="post-caption">Figure 1: The GCN Network used to detect GRBs</figcaption>
+    </figure>
+
+</body>
+</html>]]></content><author><name>dimple</name></author><category term="GRB" /><summary type="html"><![CDATA[Gamma-ray bursts (GRBs) are one of the most energetic and luminous events in the universe. These powerful explosions can last from milliseconds to minutes, and they can be hundreds of times brighter than a typical supernova and a million trillion times brighter than the Sun. Despite their discovery decades ago, we still do not fully understand the origins and causes of GRBs. One of the main challenges in studying GRBs is their classification. To unravel this mystery, various classification schemes have been proposed based on different characteristics of the bursts, such as duration, hardness, and spectral properties. Join me as we delve into this problem and explore the latest advancements in solving it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-02-24-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-02-24-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mathematical Aspects and Caveats of Temporal Analysis of Light curve</title><link href="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/" rel="alternate" type="text/html" title="Mathematical Aspects and Caveats of Temporal Analysis of Light curve" /><published>2023-02-17T00:00:00+00:00</published><updated>2023-02-17T00:00:00+00:00</updated><id>http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve</id><content type="html" xml:base="http://localhost:4000/Mathematical-Aspects-and-Caveats-of-Temporal-Analysis-of-Lightcurve/"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

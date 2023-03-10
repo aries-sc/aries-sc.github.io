@@ -48,7 +48,14 @@ authors:
     web:
     twitter: 
     description: "Shubham Kishore is a research scholar at ARIES, Nainital. He is currently doing research in blazars."
-
+  dimple:
+    name: Dimple 
+    display_name: Dimple 
+    avatar: 'assets/images/authors/dimple.jpeg'
+    email: dimple@aries.res.in
+    web:
+    twitter: 
+    description: "Dimple is a research scholar at ARIES, Nainital. She is currently doing research on Gamma Ray Bursts."
 # Social
 social:
   instagram: https://instagram.com/ariesscienceclub?igshid=ZDdkNTZiNTM=
