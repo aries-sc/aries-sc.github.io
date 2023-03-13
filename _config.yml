@@ -56,6 +56,14 @@ authors:
     web:
     twitter: 
     description: "Dimple is a research scholar at ARIES, Nainital. She is currently doing research on Gamma Ray Bursts."
+  neel:
+    name: Neel Vadodaria
+    display_name: Neel Vadodaria
+    avatar: 'assets/images/authors/neel.jpeg'
+    email: neel.v@aries.res.in
+    web:
+    twitter: 
+    description: "Neel is a research scholar at ARIES, Nainital. He is in 1st year of PhD and is currently doing course work."
 # Social
 social:
   instagram: https://instagram.com/ariesscienceclub?igshid=ZDdkNTZiNTM=

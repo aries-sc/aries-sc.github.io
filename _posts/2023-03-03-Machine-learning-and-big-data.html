@@ -1,0 +1,105 @@
+---
+layout: post
+title:  "Exploring the power of Machine Learning and Big Data in Astrophysics with a Test case"
+author: neel
+categories: [Machine Learning]
+image: assets/images/2023-03-03-talk/cover-pic.jpg
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+   <blockquote>
+        <p class="post">
+            There has been a massive growth in the availability of Astrophysical data in recent years. This growth is going to increase in the future with the 
+            advent of newer telescopes like the Square Kilometre Array, the Large Synoptic Survey Telescope now known as the Vera Rubin Telescope, and the 
+            Dark energy survey Instrument DESI. This, combined with the existing telescopes, provides a plethora of opportunities to employ ML to solve 
+            astrophysical problems. In this talk, I introduce ML in astrophysics and discuss a test case of classifying variable stars using the K nearest 
+            neighbor technique in anticipation that the talk will encourage peers to explore astrophysical data sets and appreciate the power and nuances 
+            related to algorithms and big data in astrophysics.
+        </p>
+   </blockquote>
+
+   <p class="post">
+        In this talk, we are taken through the journey of basic Machine Learning algorithms and their application towards analysing the enormous chunks of 
+        data generated in Astrophysical observations. The speaker also demonstrates the same with a test case he worked on during his Master's project.
+   </p>
+
+   <p class="post">
+        Times are changing, and gone are the days when we used to think that 1 GB of data was huge. Today, astronomical observations yield Peta-bytes of Data! 
+        Earlier, the data was manageable as per human limitations. However, going forward, analysis of big data cannot be achieved using our trivial ways. This 
+        is so because there are a limited number of scientists, astronomers, and analysts, but there is no limit to the data we generate daily. The data will 
+        keep piling up, and one day we might even run out of storage space.
+   </p>
+
+   <p class="post">
+        How to tackle this problem? Citizen Science comes to the rescue. We increase the number of people by training the common people (who may not be 
+        specialised in Astronomy and Astrophysicists), called Citizen Scientists. One great example of this is the Transiting Exoplanet Survey Satellite 
+        (TESS), where Citizen Scientists are trained to label the light curves of the transiting exoplanet. If there is a dip in the light curve, it can be 
+        considered an exoplanet. Depending on the dip's period, width, and duration, the exoplanets are further matched with a template to classify the type 
+        of exoplanet. The authorship is also shared with the citizen. In Pune, India, we also have such a program named the Pune Knowledge Cluster (PKC), which
+        IUCAA and other institutes in Pune operate. They label and categorise the galaxies.
+   </p>
+
+   <figure class="image">
+        <img src="/assets/images/2023-03-03-talk/figure1.png" alt="planet-hunter-TESS-image">
+        <figcaption class="post-caption">Figure 1 : The TESS Citizen Science program for classifying exoplanets</figcaption>
+        <figcaption class="post-caption">Source: Planet Hunters archive</figcaption>
+   </figure>
+
+   <p class="post">
+        Furthermore, to facilitate these initiatives and make the process faster and more efficient, we finally apply Machine Learning (ML) techniques. 
+        Classifying our data using ML has a few basic steps, as follows:
+        <ol class="post">
+            <li>Importing the Data</li>
+            <li>Organise and Preprocess the data- The data should be uniform, i.e., the sampling rate, resolution, and processing should be similar.</li>
+            <li>Explore Data and Engineer the features - The features that distinguish one type from the other.</li>
+            <li>Build a model - The model should be able to take into account all the features and summarise it so that we can distinguish different 
+                types/classes of objects.</li>
+            <li>Evaluate the model - The precision of the data is verified using a confusion chart.</li>
+            <li>Finally, deploy the model for use.</li>
+        </ol>
+   </p>
+
+   <p class="post">
+        For example, if we want our model to recognise the difference between the letters' J' and 'M', we must first consider how our mind differentiates 
+        between the two. We can evaluate the X and Y-axis of the stroke and the time for each stroke. 'J' has a single minima, whereas 'M' has three minimas 
+        with an oscillation pattern. On the other hand, 'J' is written quicker than 'M'. Now that we have our features and model, we must test its accuracy 
+        using Confusion Charts. In this chart, we draw a matrix comparing the expected vs. the predicted outcomes. If the desired outcome is achieved, we 
+        deploy the model to the end user; otherwise, the model is further modified to correct the confusion chart results. It is somewhat like how a child 
+        learns to recognise the number '10'. The speaker demonstrates that, in his attempt to classify the letters 'J', 'M', and 'V' using three features, he 
+        got an accuracy of 80% and a misclassification of 20%. If the number of features increases, the accuracy also increases. For more features, we need 
+        more data.
+   </p>
+
+   <p class="post">
+        The speaker used a similar kind of approach to classify about 100,000 variable stars. Using features such as the light curve analysis, HR Diagram, 
+        Blazkho effect (change of amplitude in different cycles with the same period), binary light curve, distance, entropy (the scatter of the distribution 
+        in magnitude) etc., he could classify different variable stars as Cepheids, RR Lyrae, Delta-Scuti and others.
+   </p>
+
+   <p class="post">
+        We can simplify ML as a mathematical function. The complete system of input and output of that function, including all the other hidden layers, is 
+        called a Neural Network. It is named so since it mimics the neurons of the brain. We give different weightage to different features depending upon 
+        their importance to classify an object type, and the sum total threshold decides the object's class.
+   </p>
+
+   <figure class="image">
+        <img src="/assets/images/2023-03-03-talk/figure2.png" alt="nueral-network-image">
+        <figcaption class="post-caption">Figure 2 : A simple neural network</figcaption>
+        <figcaption class="post-caption">Source: Wikipedia</figcaption>
+   </figure>
+
+   <p class="post">
+        To summarise, in these modern times, Big Data is inevitable, and ML is a necessary boon to tackle the same. Astrophysics is one such field that must 
+        take complete advantage of various ML techniques. The best part of ML is that a combination of some random features yields fruitful results, and we do 
+        not know why. This also gives us a deeper insight into how things work in the Universe. ML techniques are fast and efficient, and they can analyse 
+        astronomical observations with a speed of thousands of observations per second (or even more). ML is the way to the future for Astrophysical studies.
+   </p>
+</body>
+</html>
