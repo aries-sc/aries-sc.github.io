@@ -64,6 +64,15 @@ authors:
     web:
     twitter: 
     description: "Neel is a research scholar at ARIES, Nainital. He is in 1st year of PhD and is currently doing course work."
+  purvi:
+    name: Purvi Udhwani
+    display_name: Purvi Udhwani
+    avatar: 'assets/images/authors/purvi.jpeg'
+    email: purviaries@aries.res.in
+    web:
+    twitter: 
+    description: "Purvi is currently a M.Tech PhD student at ARIES. She currently exploring the domain of Astronomical Instrumentation, and her specialisation
+     is in Ground Layer Adaptive Optics (GLAO)."
 # Social
 social:
   instagram: https://instagram.com/ariesscienceclub?igshid=ZDdkNTZiNTM=

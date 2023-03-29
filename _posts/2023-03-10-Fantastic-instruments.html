@@ -1,0 +1,108 @@
+---
+layout: post
+title:  "Fantastic Instruments and How to understand them!"
+author: purvi
+categories: [Telescopes, MUSE, HIRES]
+image: assets/images/2023-03-10-talk/cover-pic.jpg
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">
+            Instruments are the hidden figures of every world, especially astronomy and we need to give them the attention they deserve! In this talk I will 
+            attempt to cover the basics of instruments, both ground and space based, used in astronomy all over the world and how they give us the data we use 
+            for our research.
+        </p>
+    </blockquote>
+
+    <p class="post">
+        Aberration is a property of optical systems that results in light being spread out over some region of space rather than focussing on a point. The 
+        earth's atmosphere aberrates the wavefronts of the EM waves. Due to this aberration, the images of astronomical objects become distorted. To deal with 
+        distortions, and to get high-resolution spectra, different kinds of instruments are used in the field of astronomy. Let us look into some of them in 
+        today's talk.
+    </p>
+
+    <h5>
+       MUSE: 
+    </h5>
+
+    <p class="post">
+        MUSE is an Integral Field Spectrograph working in an optical band. It splits the field of view into 24 image segments of 2.5" each. These segments are 
+        further sliced into 48 mini slices. Each set of 48 mini slits is fed into one of the spectrographs to produce a set of spectra.
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-03-10-talk/figure1.jpg" alt="FOV-MUSE-image">
+        <figcaption class="post-caption">Figure 1 : Splitting of the field of view by MUSE</figcaption>
+        <figcaption class="post-caption">Source: ESO</figcaption>
+    </figure>
+
+    <h5>
+        History of microwave astronomy:
+    </h5>
+
+    <p class="post">
+        It started with the unintentional discovery of <em>Cosmic Microwave Background (CMB)</em> . Wilson and Penzias were trying to make a microwave antenna 
+        for Bell labs. However, they detected a leftover microwave signal coming from all directions of the sky, which was nothing but the CMB.    
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-03-10-talk/figure2.webp" alt="CMB-image">
+        <figcaption class="post-caption">Figure 2 : Different generations of instruments to search for CMB</figcaption>
+        <figcaption class="post-caption">Source: quantuse.com: Cosmic microwave background - The light from the past</figcaption>
+    </figure>
+
+    <h5>
+        Instruments to detect CMB:
+    </h5>
+
+    <p class="post">
+        The first space-based CMB mission was <em>COBE (Cosmic Background Explorer)</em> satellite. It gave the first full-sky map of CMB, which confirmed Big 
+        Bang theory predictions. Nasa launched the <em>Wilkinson Microwave Anisotropy Probe (WMAP)</em> in 2001, which revealed that the universe's first stars 
+        started shining about 200 million years after the Big Bang. The ESA's Plank space telescope was the latest on the list. CMB measurement needs that 
+        noise to be minimal. So, the Planck satellite had an inbuilt system to keep itself cool, and it was sent at the cold L2 point. It had two scientific
+        instruments: the <em>High-Frequency Instrument (HFI)</em> and the <em>Low-Frequency Instrument (LFI)</em>.
+    </p>
+
+    <h5>
+        HIRES:
+    </h5>
+    <p class="post">
+        The <em>High-Resolution Echelle Spectrometer</em> at the Keck's Observatory, Hawai, works in the optical band of em spectra. It has three arms, R, G 
+        and B. It helps to break up the incoming light into its different colours to measure the intensity of each colour precisely.
+    </p>
+
+
+    <h5>
+        Adaptive Optics:
+    </h5>
+
+    <p class="post">
+        Take the case of an incoming ray of light coming through the atmosphere. Water droplets distort the wavefronts of the waves in the atmosphere, which 
+        work as air lenses. So, the wavefront captured by the instrument is aberrated and tilted. Tip-tilt correction is done on the wavefront to account 
+        for the tilt. A deformable mirror is used to account for the aberration. It takes the complementary shape of the wavefront using control electronics 
+        so that the actual wavefront can be obtained as output.
+        <ul class="post">
+            <li>
+                In the case of <em>Single Conjugate Adaptive Optics (SCAO)</em>, one guide star (should be present in the same sky patch where we are taking 
+                the observation) is used to get the measurement of the wavefront phase, assuming that both the objects face the same amount of aberration.
+            </li>
+            <li>In the case of <em>Laser Tomography Adaptive Optics (LTAO)</em>, laser beacons are used in the field of view to work as guide stars.</li>
+            <li>
+                <em>Ground Layer Adaptive Optics (GLAO)</em> is a technique in which several wavefront sensors control one deformable mirror. The guide sources are 
+                distributed in a large field of view.
+            </li>
+            <li>
+                <em>Multi Conjugate Adaptive Optics (MCAO)</em> uses multiple guide stars, including natural and Laser stars, several wavefront sensors, and 
+                many deformable mirrors.
+            </li>
+        </ul>
+    </p>
+</body>
+</html>
