@@ -6,7 +6,7 @@ permalink: "/:title/"
 logo: 'assets/images/aries2.png'
 favicon: 'assets/images/aries1.png'
 author: Sal
-paginate: 5
+paginate: 6
 disqus: 'demowebsite'
 locale: en_us
 lang: en_us
@@ -73,6 +73,14 @@ authors:
     twitter: 
     description: "Purvi is currently a M.Tech PhD student at ARIES. She currently exploring the domain of Astronomical Instrumentation, and her specialisation
      is in Ground Layer Adaptive Optics (GLAO)."
+  raj:
+    name: Raj Kishor Joshi
+    display_name: Raj Kishor Joshi
+    avatar: 'assets/images/authors/raj.jpg'
+    email: raj@aries.res.in
+    web:
+    twitter: 
+    description: "Purvi is currently a PhD student at ARIES. He currently doing research on computational fluid dynamics and numerical simulation."
 # Social
 social:
   instagram: https://instagram.com/ariesscienceclub?igshid=ZDdkNTZiNTM=
