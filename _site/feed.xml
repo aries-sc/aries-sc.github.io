@@ -1,8 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-04-12T07:30:51+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">A Curious Straight Ray</title><link href="http://localhost:4000/The-Curious-Straight-Ray/" rel="alternate" type="text/html" title="A Curious Straight Ray" /><published>2023-03-18T00:00:00+00:00</published><updated>2023-03-18T00:00:00+00:00</updated><id>http://localhost:4000/The-Curious-Straight-Ray</id><content type="html" xml:base="http://localhost:4000/The-Curious-Straight-Ray/"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-04-12T11:07:55+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Be Stars: Study of gaseous disc physics</title><link href="http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics/" rel="alternate" type="text/html" title="Be Stars: Study of gaseous disc physics" /><published>2023-03-26T00:00:00+00:00</published><updated>2023-03-26T00:00:00+00:00</updated><id>http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics</id><content type="html" xml:base="http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics/"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post"> 
+            Be stars are rapidly rotating massive B type stars surrounded by gaseous equatorial discs and exhibit emission lines of different elements. Study 
+            of these emission features produce wealth of information about the disc geometry, kinematics and evolution. However, the disc formation mechanism 
+            of Be stars remains unclear till date. I shall highlight the worldwide efforts going on presently to better understand these exotic stars and the 
+            physics of their discs. The contribution of the lndian Be star community will also be discussed along with future scope.
+        </p>
+    </blockquote>
+
+    <h5>
+        What are Be stars?
+    </h5>
+
+    <p class="post">
+        First discovered by Father Angello Secchi in 1866. They are massive B-type main sequence stars, which exhibit emission line features, indicating the 
+        presence of circumstellar discs which is mostly gas and dust. Be stars are rapid rotators. They have peak incidence at B2 spectral type, and often show 
+        high variability in emission lines. The reason it can be concluded that the emission lines are coming from the disc is because photosphere does not 
+        yield the same emission lines. Apart from spectroscopic evidence, there is also interferometric evidence.
+    </p>
+
+    <h5>
+        Why study Be stars?
+    </h5>
+
+    <p class="post">
+        <ul>
+            <li>They are natural laboratories to study stellar disc physics.</li>
+            <li>Can used as a probe to study rotation of stars</li>
+            <li>The evolutionary status of Be stars is an open issue.</li>
+            <li>To better understand the 'Be Phenoenon' - disc formation mechanism</li>
+            <li>Their disc show transient nature, which is a less studied area.</li>
+            <li>Another interesting but a distant possibility is, by probing these stars we can better understand how to make extreme speed vehicles.</li>
+        </ul>
+    </p>
+
+    <p class="post">
+        The disc of Be stars is itself a transient, i.e., a disc can appear and vanish within two months.The presence of Balmer line in the emission spectra 
+        is a strong evidence pointing towards presence a disc. The other spectral features of Be stars is shown below:
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-03-26-talk/figure1.png" alt="emission-spectra-image">
+        <figcaption class="post-caption">Figure 1 : Emission spectral features of Be stars</figcaption>
+        <figcaption class="post-caption"><em>Source: Optical spectroscopy of Galactic field classical Be stars, Banerjee G. et al. (2021)</em></figcaption>
+    </figure>
+
+    <h5>
+        Study objectives of Be stars using Indian facilities
+    </h5>
+
+    <p class="post">
+        <ul>
+            <li>To analyze major emission lines present in a large sample of field Be stars</li>
+            <li>To study the disc opacity in field Be stars considering the effect of extinction parameter</li>
+            <li>To understand the Ca II triplet emission line formation region in Be stars, which is an open question</li>
+            <li>To evaluate the disc dissipation and formation timescales of Be stars using multi-epoch optical spectra</li>
+        </ul>
+    </p>
+
+    <p class="post">
+        Ca II emission line is one the most important features in the study of Be stars. There are two possibilities for the formation of Ca II emission lines. 
+        The speaker explored various formation regions of Ca emission lines around the circumstellar disc of Be stars (Banerjee et al. 2021). Their study 
+        suggests the possibility that in Be stars, Ca II triplet emission can originate either in
+        <ol>
+            <li>in the circumbinary disc or,</li>
+            <li>from the cooler outer regions of the disc which might not be isothermal in nature. However, 5 out 17 stars were confirmed binaries. Hence, 
+                non-thermal disc scenarios seems to be more likely.</li>
+        </ol>
+    </p>
+
+    <h5>
+        Transient nature of Be stars
+    </h5>
+
+    <p class="post">
+        <ul>
+            <li>Be stars usually exhibit variability in spectral line profiles.</li>
+            <li>Extreme case leads to complete disappearance of Ha emission line, which is indicative of a disc-less state in Be stars.</li>
+            <li>Different Be star discs show such transient nature.</li>
+            <li>Disc formation mechanism in Be stars still poorly understood. Hence, no clear idea about disc formation and dissipation timescales.</li>
+            <li>However, disc loss and reappearing phases of Be stars can be identified by studying their
+                Hα line profiles on a regular basis.</li>
+        </ul>
+        Study of these Hα lines can reveal how stable the disc is and when it started forming.
+    </p>
+
+    <h5>
+        Classification of stars using epoch-wise Hα variation analysis
+    </h5>
+
+    <p class="post">
+        The speaker studied numerous Be stars in HD 23302 and their Hα line variation, and classified the Be stars as following:
+        <ul>
+            <li><strong>Group I-</strong> stars possessing stable disc during our observation period</li>
+            <li><strong>Group II-</strong> stars where disc building happening during the period of observation</li>
+            <li><strong>Group III -</strong> stars undergoing disc dissipation</li>
+        </ul>
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-03-26-talk/figure2.png" alt="epoch-image">
+        <figcaption class="post-caption">Figure 2 : Epoch-wise variation of the Hα EW against MJD as observed for the stars HD 23302. It shows a trend of 
+            increasing Hα EW since 18 February 2019 (MJD 58532). This suggests that HD 23302 might be passing through a phase of disc-formation in the current 
+            epochs</figcaption>
+        <figcaption class="post-caption"><em>Source: Study of the transient nature of classical Be stars using multi-epoch optical spectroscopy, 
+            Banerjee G. et al. (2022)</em></figcaption>
+    </figure>
+</body>
+</html>]]></content><author><name>gourav</name></author><category term="Be Stars" /><category term="Gaseous Disc" /><summary type="html"><![CDATA[Be stars are rapidly rotating massive B type stars surrounded by gaseous equatorial discs and exhibit emission lines of different elements. Study of these emission features produce wealth of information about the disc geometry, kinematics and evolution. However, the disc formation mechanism of Be stars remains unclear till date. I shall highlight the worldwide efforts going on presently to better understand these exotic stars and the physics of their discs. The contribution of the lndian Be star community will also be discussed along with future scope.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-03-26-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-03-26-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A Curious Straight Ray</title><link href="http://localhost:4000/The-Curious-Straight-Ray/" rel="alternate" type="text/html" title="A Curious Straight Ray" /><published>2023-03-18T00:00:00+00:00</published><updated>2023-03-18T00:00:00+00:00</updated><id>http://localhost:4000/The-Curious-Straight-Ray</id><content type="html" xml:base="http://localhost:4000/The-Curious-Straight-Ray/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
 <body>
     <blockquote>
         <p class="post">
@@ -28,7 +144,7 @@
     </p>
 
     <figure class="image">
-        <img src="/assets/images/2023-03-18-talk/figure1.jpg" alt="Relativistic-jets-image">
+        <img src="/assets/images/2023-03-18-talk/figure1.png" alt="Relativistic-jets-image">
         <figcaption class="post-caption">Figure 1 : Relativistic jets from the nucleus of different astronomical bodies</figcaption>
         <figcaption class="post-caption"><em>Source: Mirabel, 2013</em> </figcaption>
     </figure>
@@ -57,7 +173,7 @@
 
     <figure class="image">
         <img src="/assets/images/2023-03-18-talk/figure2.jpg" alt="FRI-&-FRII-image">
-        <figcaption class="post-caption">Figure 1 : Different types of Radio Galaxies: FRI & FRII</figcaption>
+        <figcaption class="post-caption">Figure 2 : Different types of Radio Galaxies: FRI & FRII</figcaption>
         <figcaption class="post-caption"><em>Source: Creston, 2018</em> </figcaption>
     </figure>
 

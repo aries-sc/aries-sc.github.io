@@ -81,6 +81,15 @@ authors:
     web:
     twitter: 
     description: "Raj is currently a PhD student at ARIES. He currently doing research on computational fluid dynamics and numerical simulation."
+  gaurav:
+    name: Gaurav Banerjee
+    display_name: Gaurav Banerjee
+    avatar: 'assets/images/authors/gaurav.jpg'
+    email: gaurav.banerjee@res.christuniversity.in
+    web: https://www.researchgate.net/profile/Gourav-Banerjee-2
+    twitter: 
+    description: "Gourav is currently a PhD scholar at CHRIST University, Bangalore. His works revolves around Be stars and its disc. His research group is 
+    one of the very few in the world who work with Be stars."
 # Social
 social:
   instagram: https://instagram.com/ariesscienceclub?igshid=ZDdkNTZiNTM=
