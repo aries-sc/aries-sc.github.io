@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-04-12T11:19:39+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Be Stars: Study of gaseous disc physics</title><link href="http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics/" rel="alternate" type="text/html" title="Be Stars: Study of gaseous disc physics" /><published>2023-03-26T00:00:00+00:00</published><updated>2023-03-26T00:00:00+00:00</updated><id>http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics</id><content type="html" xml:base="http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics/"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-04-12T13:33:06+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Observational aspects of Coronal Heating in the context of kink oscillations</title><link href="http://localhost:4000/Observational-aspects-of-Coronal-Heating/" rel="alternate" type="text/html" title="Observational aspects of Coronal Heating in the context of kink oscillations" /><published>2023-04-08T00:00:00+00:00</published><updated>2023-04-08T00:00:00+00:00</updated><id>http://localhost:4000/Observational-aspects-of-Coronal-Heating</id><content type="html" xml:base="http://localhost:4000/Observational-aspects-of-Coronal-Heating/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">
+            Coronal heating is a problem that has puzzled scientists for decades. One proposed mechanism for coronal heating is the energy transfer in the 
+            solar corona by Magnetohydrodynamic (MHD) waves. Several types of MHD waves can be observed in the solar corona, and kink oscillations are a 
+            ubiquitous manifestation of largely transverse MHD waves in the solar corona. In this talk, I'll touch upon the historical and introductory 
+            aspects of coronal heating, shedding light on the observational perspective. Furthermore, we'll explore the intriguing topic of kink oscillations 
+            and their related heating phenomena within the context of the most recent and cutting-edge imaging instruments.
+        </p>
+    </blockquote>
+
+    <h5>
+        What is the Solar Corona?
+    </h5>
+
+    <p class="post">
+        The Sun is surrounded by an atmosphere of gasses, and the Corona is the outermost layer. The Corona has a temperature of 3-4 orders of magnitude 
+        greater than the visible surface (greater than a million degrees). Due to the relative brightness of the Sun's surface, it is only visible from Earth 
+        during total solar eclipses.
+    </p>
+
+    <figure class="image", float="left">
+        <img src="/assets/images/2023-04-08-talk/figure1.jpg" alt="solar-eclipse-image", style="width: 12rem;">
+        <img src="/assets/images/2023-04-08-talk/figure2.jpg" alt="layers-of-sun-image", style="width: 12rem;">
+        <figcaption class="post-caption">Figure 1 : Illustration of the Corona observed during the Solar Eclipse (Left), and Schematic of the different layers 
+            of the Sun (Right)</figcaption>
+        <figcaption class="post-caption"><em>Source: <a href="www.timeanddate.com/eclipse/total-solar-eclipse.html">www.timeanddate.com/eclipse/total-solar-eclipse.html</a>
+            and <a href="www.thesuntoday.org/solar-facts/powering-the-sun">www.thesuntoday.org/solar-facts/powering-the-sun</a> </em> </figcaption>
+    </figure>
+
+    <h5>
+        What is the problem of Coronal heating?
+    </h5>
+
+    <p class="post">
+        <em>"For decades, the problem has been known as the coronal heating problem, but it is now clear that coronal heating cannot be treated or explained 
+            in isolation and that the heating of the whole solar atmosphere must be studied as a highly coupled system. The magnetic field of the Sun is known 
+            to play a key role....</em>
+    </p>
+
+    <p class="post">
+        <em>....the question of which mechanism or mechanisms are the dominant supplier of energy to the chromosphere and Corona is still open."</em>
+    </p>
+
+    <p class="post">
+        <em>- (Parnell & De Moortel, 2012)</em>
+    </p>
+
+    <p class="post">
+        In the 1890s, the solar surface temperature was derived to be around 6600K, using the newly-discovered Stefan-Boltzmann law. The solar photosphere 
+        radiates like a blackbody; its spectrum gives T, and dark "Fraunhofer lines" reveal its chemical composition. However, during the 1870s total solar 
+        eclipse revealed a complex outer solar corona. Spectrographs revealed unknown bright lines along with Fraunhofer lines.
+    </p>
+
+    <p class="post">
+        A strange emission line was observed in the green part of the spectrum. This emission line was thought to be due to a new and unknown element, and it 
+        was named Coronium. Later scientists found that there is no new element and emission is coming from highly ionized atoms. Similarly, other unknown lines were identified as CaXII, FeIX, to FeXII. However, to ionise these elements to such a great extent 
+        requires a very high temperature. Hence, it was calculated that the Corona must have temperatures greater than 1 million K. And so the coronal heating 
+        problem began.
+    </p>
+
+    <p class="post">
+        What was strange was that, as we go higher up in the solar atmosphere, the temperature should decrease since plasma density decreases drastically. 
+        However, it was not the case.
+    </p>
+
+    <p class="post">
+        Solar physicists have proposed two probable mechanisms for coronal heating.
+        <ol class="post">
+            <li><strong>Nano-Flare heating:</strong> In this theory, the Corona is heated by very small flares(nano-flares) being the energy source, which 
+                could be detected through conventional telescopes.</li>
+            <li><strong>Wave-Heating:</strong> In this theory, a countless number of magnetic field lines extending from the surface of the Sun are oscillated 
+                by the dynamics of the convection on the solar surface, which delivers the energy to the Corona. The energy is then converted into heat in the 
+                Corona.</li>
+        </ol>
+        Which of these is most important for chromospheric and coronal heating is still very much an open question.
+    </p>
+
+    <h5>
+        Kink oscillations of coronal loops
+    </h5>
+
+    <p class="post">
+        Kink oscillations are the transverse displacement of the loop axis.
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-04-08-talk/figure3.png" alt="kink-oscillation-image">
+        <figcaption class="post-caption">Figure 2 : Schematic illustration of the mechanism for the excitation of kink oscillations of coronal loops, observed 
+            in the majority of the studied events. (a) Pre-eruption state of the active region. (b) Displacement of a coronal loop (solid black curve) from 
+            its equilibrium state (dashed black line) by an erupting and expanding plasma structure, e.g. a flux rope (grey loop-shaped structure). (c) 
+            Oscillatory relaxation of the loop to its equilibrium state after the eruption.</figcaption>
+        <figcaption class="post-caption"><em>Source: Excitation of kink oscillations of coronal loops: Statistical study, Ivan V. Zimovets. et al. (2015)
+            </em> </figcaption>
+    </figure>
+
+    <p class="post">
+        These oscillations are fundamental modes of coronal loops, with their nodes at the photosphere, i.e. the perturbation at the photosphere is zero. The 
+        coronal mass ejections power the kink oscillations.
+    </p>
+
+    <p class="post">
+        There are two different regimes of kink oscillations based on the evolution of their amplitude.
+        <ol class="post">
+            <li><strong>Decaying-</strong> The oscillations decay in amplitude with time.</li>
+            <li><strong>Decayless:</strong> The oscillations do not decay even for a few hours. They have a lower amplitude than the decaying oscillations, and 
+                hence they have lower energy.</li>
+        </ol>
+        Earlier studies predicted that the decayless kink oscillations were powerful enough to power the heating of the Corona. However SDO/AIA observations 
+        showed that transverse oscillations in polar plumes have energy flux 4-10 times below than the required.
+
+    <h5>
+        The new era of high-resolution imaging: Solar Orbiter/EUI
+    </h5>
+
+    <p class="post">
+        The newly launched Solar Orbiter and EUI are state-of-the-art facilities capable of imaging the solar atmosphere at very high resolutions. The Solar 
+        orbiter, at an impressive distance of 0.28 AU from the Sun, can take clear images of the solar atmosphere. Furthermore, unlike any other telescope, it 
+        can have a cadence of 2-3 seconds.
+    </p>
+
+    <p class="post">
+        Lastly, it is noteworthy to add that the in-house team comprising Purvi Udhwani, Arpit Srivastav from ARIES, along with Dr. Ritesh Patel are developing 
+        a tool called 'SITCoM: SiRGraF Integrated Tool for Cronal dynaMics', which will aid them in understanding the dynamics of the Solar Corona.
+    </p>
+</body>
+</html>]]></content><author><name>arpit</name></author><category term="Coronal heating" /><category term="MHD" /><category term="Solar Orbiter" /><summary type="html"><![CDATA[Coronal heating is a problem that has puzzled scientists for decades. One proposed mechanism for coronal heating is the energy transfer in the solar corona by Magnetohydrodynamic (MHD) waves. Several types of MHD waves can be observed in the solar corona, and kink oscillations are a ubiquitous manifestation of largely transverse MHD waves in the solar corona. In this talk, I'll touch upon the historical and introductory aspects of coronal heating, shedding light on the observational perspective. Furthermore, we'll explore the intriguing topic of kink oscillations and their related heating phenomena within the context of the most recent and cutting-edge imaging instruments.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-04-08-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-04-08-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Be Stars: Study of gaseous disc physics</title><link href="http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics/" rel="alternate" type="text/html" title="Be Stars: Study of gaseous disc physics" /><published>2023-03-26T00:00:00+00:00</published><updated>2023-03-26T00:00:00+00:00</updated><id>http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics</id><content type="html" xml:base="http://localhost:4000/Be-Stars-Study-of-gaseous-disc-physics/"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

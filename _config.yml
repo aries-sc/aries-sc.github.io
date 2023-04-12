@@ -90,6 +90,15 @@ authors:
     twitter: 
     description: "Gourav is currently a PhD scholar at CHRIST University, Bangalore. His works revolves around Be stars and its disc. His research group is 
     one of the very few in the world who work with Be stars."
+  arpit:
+    name: Arpit K Shrivastav
+    display_name: Arpit K Shrivastav
+    avatar: 'assets/images/authors/arpit.jpg'
+    email: arpits@aries.res.in
+    web:
+    twitter: 
+    description: "Arpit is an SRF at ARIES in his fourth year. His work revolves around the aspects of coronal heating. His research also involves the 
+    phenomenon of coronal rain."
 # Social
 social:
   instagram: https://instagram.com/ariesscienceclub?igshid=ZDdkNTZiNTM=
