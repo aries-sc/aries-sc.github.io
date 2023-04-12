@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-04-09T07:05:39+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Fantastic Instruments and How to understand them!</title><link href="http://localhost:4000/Fantastic-instruments/" rel="alternate" type="text/html" title="Fantastic Instruments and How to understand them!" /><published>2023-03-10T00:00:00+00:00</published><updated>2023-03-10T00:00:00+00:00</updated><id>http://localhost:4000/Fantastic-instruments</id><content type="html" xml:base="http://localhost:4000/Fantastic-instruments/"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-04-12T07:30:51+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">A Curious Straight Ray</title><link href="http://localhost:4000/The-Curious-Straight-Ray/" rel="alternate" type="text/html" title="A Curious Straight Ray" /><published>2023-03-18T00:00:00+00:00</published><updated>2023-03-18T00:00:00+00:00</updated><id>http://localhost:4000/The-Curious-Straight-Ray</id><content type="html" xml:base="http://localhost:4000/The-Curious-Straight-Ray/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+<body>
+    <blockquote>
+        <p class="post">
+            Astrophysical jets are fascinating phenomena that have been observed in a wide range of astrophysical objects like active galactic nuclei (AGNs), 
+            microquasars, neutron stars, young stellar objects (YSOs), and gamma-ray bursts (GRBs). They are narrow, highly collimated outflows of plasma 
+            that can extend over vast distances from the central object. Despite years of research and advances in observation and simulation of these objects, 
+            the formation, collimation, and composition of these jets still remain as open questions. In this talk, I will give an overview about our 
+            understanding of these enigmatic and fascinating objects.
+        </p>
+    </blockquote>
+
+    <p class="post">
+        In 1918, while studying the spiral galaxy NGC 4569, Curtis noticed a straight ray of light extending from the galaxy's nucleus. This ray appeared 
+        much brighter than the rest of the galaxy and extended outwards for a considerable distance. The ray was so unusual that Curtis initially thought it 
+        might be a comet or some other type of celestial object. After observing the Curious Ray, the astronomer spent several months trying to determine its 
+        nature and origin. He examined other galaxies to see if they also had similar rays but found that the NGC 4569 was the only galaxy with such a 
+        phenomenon. Curtis also ruled out the possibility that the ray was a reflection of light from a nearby star or planet. Curtis concluded that the 
+        Curious Straight Ray was caused by a jet of material ejected from the galaxy's nucleus. This jet was likely the result of a massive explosion, such as 
+        a supernova or a quasar. However, at the time of Curtis's discovery, the concept of a quasar was unknown, so he referred to the phenomenon as a "jet." 
+        Since Curtis's discovery, astronomers have studied the Curious Straight Ray extensively. We now know that these rays are caused by jets of material 
+        being ejected from the nuclei of galaxies. These jets are produced by supermassive black holes at the centre of galaxies, which emit powerful 
+        streams of energy as they consume matter.
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-03-18-talk/figure1.jpg" alt="Relativistic-jets-image">
+        <figcaption class="post-caption">Figure 1 : Relativistic jets from the nucleus of different astronomical bodies</figcaption>
+        <figcaption class="post-caption"><em>Source: Mirabel, 2013</em> </figcaption>
+    </figure>
+
+    <p class="post">
+        Observations of relativistic jets using <em>Very Long Baseline Interferometry (VLBI)</em> techniques have revealed apparent superluminal motion of the 
+        jet material. This effect is known as Apparent Faster- Than-Light (AFTL) motion and occurs when the jet is moving at a very high fraction of the speed 
+        of light and is pointed close to the observer's line of sight. Superluminal motion refers to the apparent motion of an object at speeds faster than 
+        the speed of light. This phenomenon is observed in radio jets emanating from certain active galactic nuclei, where the apparent motion of the jet 
+        material can exceed the speed of light. However, this does not violate the laws of physics, as it is a purely observational effect caused by the 
+        orientation of the jet relative to the observer.
+    </p>
+
+    <p class="post">
+        The study of superluminal motion in relativistic jets has provided valuable insights into the physics of these objects, including the structure and 
+        dynamics of the jet material, the properties of the magnetic fields that accelerate and confine the plasma, and the nature of the accretion 
+        processes that power the jets.
+    </p>
+
+    <p class="post">
+        There are two types of Radio Galaxies, based on the relativistic jet it emits from their nucleus, <em>Fanaroff- Riley I(FRI)</em> and 
+        <em>Fanaroff- Riley II(FRII)</em>. FRI type galaxies are brighter towards the centre and have two-sided, lower-powered (< ~10<sup>42</sup> erg/s) jets. 
+        Plumes are observed in this kind of galaxy. On the other hand, FRII galaxies have one-sided higher-powered (>~10<sup>42</sup> erg/s) jets. FRII 
+        galaxies have Hot Spots and Lobes, and their edges are brightened.
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-03-18-talk/figure2.jpg" alt="FRI-&-FRII-image">
+        <figcaption class="post-caption">Figure 1 : Different types of Radio Galaxies: FRI & FRII</figcaption>
+        <figcaption class="post-caption"><em>Source: Creston, 2018</em> </figcaption>
+    </figure>
+
+
+</body>
+</html>]]></content><author><name>raj</name></author><category term="Relativistic Jets" /><category term="Radio Galaxies" /><summary type="html"><![CDATA[Astrophysical jets are fascinating phenomena that have been observed in a wide range of astrophysical objects like active galactic nuclei (AGNs), microquasars, neutron stars, young stellar objects (YSOs), and gamma-ray bursts (GRBs). They are narrow, highly collimated outflows of plasma that can extend over vast distances from the central object. Despite years of research and advances in observation and simulation of these objects, the formation, collimation, and composition of these jets still remain as open questions. In this talk, I will give an overview about our understanding of these enigmatic and fascinating objects.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-03-18-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-03-18-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fantastic Instruments and How to understand them!</title><link href="http://localhost:4000/Fantastic-instruments/" rel="alternate" type="text/html" title="Fantastic Instruments and How to understand them!" /><published>2023-03-10T00:00:00+00:00</published><updated>2023-03-10T00:00:00+00:00</updated><id>http://localhost:4000/Fantastic-instruments</id><content type="html" xml:base="http://localhost:4000/Fantastic-instruments/"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
