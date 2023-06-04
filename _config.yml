@@ -24,30 +24,24 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  vivek:
-    name: Vivek Kumar Jha
-    display_name: Vivek Kumar Jha
-    avatar: 'assets/images/authors/vivek.jpg'
-    email: vivekjha.aries@gmail.com
-    web: https://viveikjha.github.io/
-    twitter: 
-    description: "Vivek Kr. Jha is a Project Associate and a former Ph.D. student at ARIES, Nainital. He is also the mentor of our ARIES Science Club (ASC)."
-  krishna:
-    name: Dr. Krishna Mohana
-    display_name: Dr. Krishna Mohana 
-    avatar: 'assets/images/authors/krishna.jpeg'
-    email: krishna_mohana@aries.res.in
+  arpit:
+    name: Arpit K Shrivastav
+    display_name: Arpit K Shrivastav
+    avatar: 'assets/images/authors/arpit.jpg'
+    email: arpits@aries.res.in
     web:
     twitter: 
-    description: "Dr. krishna Mohana is RA-1 at ARIES, Nainital. He is currently doing research in blazars and AGN."
-  shubham:
-    name: Shubham Kishore
-    display_name: Shubham Kishore 
-    avatar: 'assets/images/authors/subham.jpg'
-    email: shubham@aries.res.in
+    description: "Arpit is an SRF at ARIES in his fourth year. His work revolves around the aspects of coronal heating. His research also involves the 
+    phenomenon of coronal rain."
+  devesh:
+    name: Devesh Dhole 
+    display_name: Devesh Dhole 
+    avatar: 'assets/images/authors/devesh.jpg'
+    email: 
     web:
     twitter: 
-    description: "Shubham Kishore is a research scholar at ARIES, Nainital. He is currently doing research in blazars."
+    description: "Devesh is a project student at ARIES working under the guidance of Prof. Dipankar Banerjee. He is pursuing his M.Sc. in Physics from IIT 
+    Bombay and is B.E. (Hons.) Computer Science from BITS Pilani, Goa Campus."
   dimple:
     name: Dimple 
     display_name: Dimple 
@@ -56,6 +50,23 @@ authors:
     web:
     twitter: 
     description: "Dimple is a research scholar at ARIES, Nainital. She is currently doing research on Gamma Ray Bursts."
+  gourav:
+    name: Gourav Banerjee
+    display_name: Gourav Banerjee
+    avatar: 'assets/images/authors/gaurav.jpg'
+    email: gaurav.banerjee@res.christuniversity.in
+    web: https://www.researchgate.net/profile/Gourav-Banerjee-2
+    twitter: 
+    description: "Gourav is currently a PhD scholar at CHRIST University, Bangalore. His works revolves around Be stars and its disc. His research group is 
+    one of the very few in the world who work with Be stars."
+  krishna:
+    name: Dr. Krishna Mohana
+    display_name: Dr. Krishna Mohana 
+    avatar: 'assets/images/authors/krishna.jpeg'
+    email: krishna_mohana@aries.res.in
+    web:
+    twitter: 
+    description: "Dr. krishna Mohana is RA-1 at ARIES, Nainital. He is currently doing research in blazars and AGN."
   neel:
     name: Neel Vadodaria
     display_name: Neel Vadodaria
@@ -81,24 +92,23 @@ authors:
     web:
     twitter: 
     description: "Raj is currently a PhD student at ARIES. He currently doing research on computational fluid dynamics and numerical simulation."
-  gourav:
-    name: Gourav Banerjee
-    display_name: Gourav Banerjee
-    avatar: 'assets/images/authors/gaurav.jpg'
-    email: gaurav.banerjee@res.christuniversity.in
-    web: https://www.researchgate.net/profile/Gourav-Banerjee-2
-    twitter: 
-    description: "Gourav is currently a PhD scholar at CHRIST University, Bangalore. His works revolves around Be stars and its disc. His research group is 
-    one of the very few in the world who work with Be stars."
-  arpit:
-    name: Arpit K Shrivastav
-    display_name: Arpit K Shrivastav
-    avatar: 'assets/images/authors/arpit.jpg'
-    email: arpits@aries.res.in
+  shubham:
+    name: Shubham Kishore
+    display_name: Shubham Kishore 
+    avatar: 'assets/images/authors/subham.jpg'
+    email: shubham@aries.res.in
     web:
     twitter: 
-    description: "Arpit is an SRF at ARIES in his fourth year. His work revolves around the aspects of coronal heating. His research also involves the 
-    phenomenon of coronal rain."
+    description: "Shubham Kishore is a research scholar at ARIES, Nainital. He is currently doing research in blazars."
+  vivek:
+    name: Vivek Kumar Jha
+    display_name: Vivek Kumar Jha
+    avatar: 'assets/images/authors/vivek.jpg'
+    email: vivekjha.aries@gmail.com
+    web: https://viveikjha.github.io/
+    twitter: 
+    description: "Vivek Kr. Jha is a Project Associate and a former Ph.D. student at ARIES, Nainital. He is also the mentor of our ARIES Science Club (ASC)."
+  
 # Social
 social:
   instagram: https://instagram.com/ariesscienceclub?igshid=ZDdkNTZiNTM=

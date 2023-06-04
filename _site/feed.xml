@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-05-26T07:29:28+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Observational aspects of Coronal Heating in the context of kink oscillations</title><link href="http://localhost:4000/Observational-aspects-of-Coronal-Heating/" rel="alternate" type="text/html" title="Observational aspects of Coronal Heating in the context of kink oscillations" /><published>2023-04-08T00:00:00+00:00</published><updated>2023-04-08T00:00:00+00:00</updated><id>http://localhost:4000/Observational-aspects-of-Coronal-Heating</id><content type="html" xml:base="http://localhost:4000/Observational-aspects-of-Coronal-Heating/"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-06-04T20:55:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Coronal Holes and their Detection: A Simple Overview</title><link href="http://localhost:4000/Coronal-holes/" rel="alternate" type="text/html" title="Coronal Holes and their Detection: A Simple Overview" /><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><id>http://localhost:4000/Coronal-holes</id><content type="html" xml:base="http://localhost:4000/Coronal-holes/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">
+            Coronal Holes are the darkest and least active regions in the solar corona as observed on the solar disk and above the solar limb. They are 
+            associated with high-speed solar winds that are responsible for a fraction of geomagnetic storms on Earth. Thus naturally its detection is crucial 
+            for predicting space weather. We will take a look at some popular detection methods and how Neural Networks can help us take the field forward.
+        </p>
+    </blockquote>
+
+    <h5>
+        What are Coronal Holes?
+    </h5>
+
+    <p class="post">
+        Coronal Holes are regions in the solar Corona where the plasma is cooler and denser than the other parts. Coronal holes appear as dark areas in the 
+        solar Corona in extreme ultraviolet (EUV) and soft X-ray solar images. They appear dark because they are cooler, less dense regions than the 
+        surrounding plasma and are regions of open (locally), unipolar magnetic fields.
+    </p>
+
+    <figure class="image", float="left">
+        <img src="/assets/images/2023-05-26-talk/figure1.png" alt="magnetic-structures-image", style="width: 12rem;">
+        <img src="/assets/images/2023-05-26-talk/figure2.jpg" alt="coronal-holes-image", style="width: 12rem;">
+        <figcaption class="post-caption">Figure 1 : Schematic of different magnetic structures  of Sun (Left), Image of coronal holes taken from AIA observations 
+            (Right)
+        </figcaption>
+        <figcaption class="post-caption"><em>Source: Zhang, J., Temmer, M., Gopalswamy, N. et al. Earth-affecting solar transients: a review of progresses in 
+            solar cycle 24. Prog Earth Planet Sci 8, 56 (2021). and  <a href="https://www.universetoday.com/82576/holes-in-the-suns-corona-in-2-d-3-d-and-
+            video/">https://www.universetoday.com/82576/holes-in-the-suns-corona-in-2-d-3-d-and-video/</a></em> </figcaption>
+    </figure>
+
+    <h5>
+        Signatures of Coronal Holes
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>If observed in EUV or Soft X-ray, the coronal holes appear as dark regions (darker than the surroundings).</li>
+            <li>The magnetograms will appear to be predominantly unipolar since the magnetic field lines appear to be open locally.</li>
+        </ol>
+    </p>
+
+    <h5>
+        Importance of Coronal Holes
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>Coronal Holes are associated with open magnetic field lines that extend into the heliosphere. Thus, the ions and electrons are accelerated 
+                through these lines creating high-speed winds, which are responsible for a fraction of geomagnetic storms on Earth.</li>
+            <li>The boundaries of Coronal Holes might play a role in the origin of slow solar winds.</li>
+        </ol>
+    </p>
+
+    <h5>
+        A brief overview of a few existing methods
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>
+                <h5>Simple Intensity Thresholding</h5>
+                <p>A Histogram based method that uses intensity threshold and removes filaments using magnetograms. A single peak is observed in the absence 
+                    of Coronal Holes, however, a double peak emerges in the Intensity histogram in the presence of coronal holes.</p>
+            </li>
+            <li>
+                <h5>CHIMERA (Coronal Hole identification via multi-thermal emission recognition algorithm)</h5>
+                <p>It analyses intensities in three bands (171 Å, 193 Å, and 211 Å) to segment pixels with similar properties together to a Coronal Hole. 
+                    Coronal Holes have a typical temperature of 0.7 MK, which means they should produce peak emission in the 171 Å passband.</p>
+            </li>
+        </ol>
+    </p>
+
+    <h5>
+        Problems encountered while detecting Coronal Holes
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>Other features in the solar Corona, like filaments, Coronal dimming, etc., appear equally dark as Corona Holes.</li>
+            <li>Due to the near-limb projection effects, the intensity-based segmentation techniques will perform worse as we go polewards. Also, brighter 
+                structures will obscure the Coronal Holes as we move towards the pole.</li>
+            <li>The shape, size, and location of Coronal Holes change over a few solar rotations and between solar maxima and solar minima.</li>
+        </ol>
+    </p>
+
+    <figure class="image", float="left">
+        <img src="/assets/images/2023-05-26-talk/figure3.png" alt="coronal-holes-image", style="width: 10rem;">
+        <img src="/assets/images/2023-05-26-talk/figure4.png" alt="coronal-holes-image", style="width: 10rem;">
+        <figcaption class="post-caption">Figure 2 : Coronal holes during Solar Maxima (Left) and Solar Minima (Right)</figcaption>
+        <figcaption class="post-caption"><em>Source: <a href="https://svs.gsfc.nasa.gov/4854">https://svs.gsfc.nasa.gov/4854</a></em> </figcaption>
+    </figure>
+
+    <h5>
+        Tackling these problems using Neural Networks
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>Neural Networks are known to have better accuracy.</li>
+            <li>There is less human intervention.</li>
+            <li>The network can pick out large time-scale patterns.</li>
+            <li>They are usually faster.</li>
+            <li>We have a large dataset at hand.</li>
+        </ol>
+        We can also create catalogues for CMEs and Solar Winds using these ML techniques, which will help future researchers.
+    </p>
+
+    <p class="post">
+        <em>Devesh’s future work will revolve around using various ML techniques to identify Coronal Holes.</em>
+    </p>
+</body>
+</html>]]></content><author><name>devesh</name></author><category term="Coronal holes" /><category term="Neural Network" /><summary type="html"><![CDATA[Coronal Holes are the darkest and least active regions in the solar corona as observed on the solar disk and above the solar limb. They are associated with high-speed solar winds that are responsible for a fraction of geomagnetic storms on Earth. Thus naturally its detection is crucial for predicting space weather. We will take a look at some popular detection methods and how Neural Networks can help us take the field forward.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-05-26-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-05-26-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Observational aspects of Coronal Heating in the context of kink oscillations</title><link href="http://localhost:4000/Observational-aspects-of-Coronal-Heating/" rel="alternate" type="text/html" title="Observational aspects of Coronal Heating in the context of kink oscillations" /><published>2023-04-08T00:00:00+00:00</published><updated>2023-04-08T00:00:00+00:00</updated><id>http://localhost:4000/Observational-aspects-of-Coronal-Heating</id><content type="html" xml:base="http://localhost:4000/Observational-aspects-of-Coronal-Heating/"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
