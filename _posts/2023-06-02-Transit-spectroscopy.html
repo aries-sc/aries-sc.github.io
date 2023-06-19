@@ -1,0 +1,141 @@
+---
+layout: post
+title:  "Transit Spectroscopy - A Tool to Probe the Exoplanet Atmosphere"
+author: athira
+categories: [Exoplanets, Spectroscopy]
+image: assets/images/2023-06-02-talk/cover-pic.jpg
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">
+            The transit method has proven immensely valuable in detecting exoplanets but also holds great potential for characterizing their atmospheres. In 
+            this discussion, I will explore the utilization of both low and high-resolution transit spectroscopic techniques, which are employed to examine the 
+            atmospheres of exoplanets using ground-based facilities such as HCT/HFOSC, Gemini/GMOS, Keck/HIRES, VLT/ESPRESSO, HARPS, etc.
+        </p>
+    </blockquote>
+
+    <h5>
+        What is Transit Method:
+    </h5>
+
+    <p class="post">
+        The transit method is a popular method to detect and analyse the characteristics of many astronomical objects, like binary stars, exoplanets. Suppose 
+        a far-away star has few planets. We can detect the variation of photon flux coming from the star with time using telescope detectors. It is called a 
+        light curve. Now, when the planets of the star come in front of the star, in our FOV, the amount of flux coming from the star decreases, and therefore 
+        the existence of the planets can be assumed from the light curve. The size of the orbit of the planets can be calculated from the time it takes to 
+        orbit the star once, and the size of the planets can be obtained by noting the amount of dimming it has done in the light curve.
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-06-02-talk/figure1.gif" alt="light-curve-image">
+        <figcaption class="post-caption">Figure 1 : Dip in the light curve as a planet passes in front of a star <em>(Credit: University of Hertfordshire)</em>
+        </figcaption>
+    </figure>
+
+    <h5>    
+        Transit Spectroscopy:
+    </h5>
+
+    <p class="post">
+        We can learn about the atmosphere of the exoplanet during transit. As the planet's atmosphere reabsorbs and scatters the photons coming from the star, 
+        the transit depth (The amount of intensity dimming in the light curve of the star due to the planet) is wavelength dependent. In the UV and bluer part 
+        of the optical the lines transit depth decreases with increasing wavelength due to Rayleigh scattering, whereas Na and K lines are visible in the 
+        optical band and H<sub>2</sub>O and other molecular lines are visible in the NIR band.
+    </p>
+
+    <h5>
+        Low-Resolution Spectroscopy:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>A reference star of the same spectral type as the host star is chosen in the same science frame.</li>
+            <li> Low-resolution spectroscopic observations are taken continuously covering transit and out of transit.</li>
+            <li>The fluxes of the host star at each wavelength are normalised by dividing it by the fluxes of reference star.</li>
+            <li>The cumulative relative flux of the host star in each wavelength bin is then plotted as a function of phase to obtain the wavelength dependent transit 
+                depth.</li>
+        </ol>
+    </p>
+
+    <h5>
+        Merits and Demerits of LR Spectroscopy:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>It is useful for initial study of exoplanets and for understanding possible atmospheric signatures.</li>
+            <li>Smaller telescopes (e.g, 2 m) are also capable of doing it.</li>
+            <li>Number of data points is less.</li>
+            <li>Observation alone cannot provide a detailed information about the atmosphere of the exoplanet.</li>
+        </ol>
+    </p>
+
+    <h5>
+        High-Resolution Spectroscopy:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>High-resolution spectroscopic observations are taken continuously covering transit and out of transit.</li>
+            <li>Stability of the wavelength solution throughout the observation is important.</li>
+            <li>High Resolution Spectra is analysed to study individual spectral features of the exoplanet atmosphere.</li>
+            <li>Residual planetary signal is obtained by subtracting individual in-transit spectra with master out of transit spectra.</li>
+        </ol>
+    </p>
+
+    <figure class="image", float="left">
+        <img src="/assets/images/2023-06-02-talk/figure2.png" alt="LR-spectra-image", style="width: 20rem;">
+        <img src="/assets/images/2023-06-02-talk/figure3.png" alt="HR-spectra-image", style="width: 20rem;">
+        <figcaption class="post-caption">Figure 2 : Low Resolution (R ~ 1200)(on the left) and High Resolution Spectra (R~65k)s (on the right)
+        </figcaption>
+    </figure>
+
+    <h5>
+        Merits and Demerits of HR Spectroscopy:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>Useful in studying the atmosphere of the exoplanets in more detail.</li>
+            <li>Require more stabilised bigger telescopes.</li>
+        </ol>
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-06-02-talk/figure4.png" alt="transit-light-curve-image">
+        <figcaption class="post-caption">Figure 3 : During a transit along with an overall flux drop, there is an extra absorption happening in an absorption 
+            feature <em>(Credit: ESO workshop 2022).</em>Examples of He (1083 nm) detection in the atmosphere of WASP-69b using CARMENES (Lisa Nortmann et al. 2018) and Li (671 nm) detection in the atmosphere of   WASP-76b (H. M. Tabernero et al 2021) using VLT/ESPRESSO.
+        </figcaption>
+    </figure>
+
+    <h5>
+        Main Steps to be followed:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>Telluric Correction</li>
+            <li>Normalisation</li>
+            <li>Spectra to the stellar rest frame</li>
+            <li>Remove stellar contribution</li>
+            <li>Shift the residual spectra to the planet rest frame</li>
+            <li>Combine all the residual spectra</li>
+        </ol>
+    </p>
+
+    <figure class="image", float="left">
+        <img src="/assets/images/2023-06-02-talk/figure5.png" alt="WASP69b-spectra-image", style="width: 20rem;">
+        <img src="/assets/images/2023-06-02-talk/figure6.jpg" alt="WASP76b-spectra-image", style="width: 20rem;">
+        <figcaption class="post-caption">Figure 4 : Examples of He (1083 nm) detection in the atmosphere of WASP-69b using CARMENES (Lisa Nortmann et al. 2018) 
+            and Li (671 nm) detection in the atmosphere of WASP-76b (H. M. Tabernero et al 2021) using VLT/ESPRESSO.
+        </figcaption>
+    </figure>
+</body>
+</html>

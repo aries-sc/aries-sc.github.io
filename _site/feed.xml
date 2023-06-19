@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-06-08T11:58:45+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Coronal Holes and their Detection: A Simple Overview</title><link href="http://localhost:4000/Coronal-holes/" rel="alternate" type="text/html" title="Coronal Holes and their Detection: A Simple Overview" /><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><id>http://localhost:4000/Coronal-holes</id><content type="html" xml:base="http://localhost:4000/Coronal-holes/"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2023-06-19T06:48:27+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ARIES Science club</title><author><name>Sal</name></author><entry><title type="html">Transit Spectroscopy - A Tool to Probe the Exoplanet Atmosphere</title><link href="http://localhost:4000/Transit-spectroscopy/" rel="alternate" type="text/html" title="Transit Spectroscopy - A Tool to Probe the Exoplanet Atmosphere" /><published>2023-06-02T00:00:00+00:00</published><updated>2023-06-02T00:00:00+00:00</updated><id>http://localhost:4000/Transit-spectroscopy</id><content type="html" xml:base="http://localhost:4000/Transit-spectroscopy/"><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <blockquote>
+        <p class="post">
+            The transit method has proven immensely valuable in detecting exoplanets but also holds great potential for characterizing their atmospheres. In 
+            this discussion, I will explore the utilization of both low and high-resolution transit spectroscopic techniques, which are employed to examine the 
+            atmospheres of exoplanets using ground-based facilities such as HCT/HFOSC, Gemini/GMOS, Keck/HIRES, VLT/ESPRESSO, HARPS, etc.
+        </p>
+    </blockquote>
+
+    <h5>
+        What is Transit Method:
+    </h5>
+
+    <p class="post">
+        The transit method is a popular method to detect and analyse the characteristics of many astronomical objects, like binary stars, exoplanets. Suppose 
+        a far-away star has few planets. We can detect the variation of photon flux coming from the star with time using telescope detectors. It is called a 
+        light curve. Now, when the planets of the star come in front of the star, in our FOV, the amount of flux coming from the star decreases, and therefore 
+        the existence of the planets can be assumed from the light curve. The size of the orbit of the planets can be calculated from the time it takes to 
+        orbit the star once, and the size of the planets can be obtained by noting the amount of dimming it has done in the light curve.
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-06-02-talk/figure1.gif" alt="light-curve-image">
+        <figcaption class="post-caption">Figure 1 : Dip in the light curve as a planet passes in front of a star <em>(Credit: University of Hertfordshire)</em>
+        </figcaption>
+    </figure>
+
+    <h5>    
+        Transit Spectroscopy:
+    </h5>
+
+    <p class="post">
+        We can learn about the atmosphere of the exoplanet during transit. As the planet's atmosphere reabsorbs and scatters the photons coming from the star, 
+        the transit depth (The amount of intensity dimming in the light curve of the star due to the planet) is wavelength dependent. In the UV and bluer part 
+        of the optical the lines transit depth decreases with increasing wavelength due to Rayleigh scattering, whereas Na and K lines are visible in the 
+        optical band and H<sub>2</sub>O and other molecular lines are visible in the NIR band.
+    </p>
+
+    <h5>
+        Low-Resolution Spectroscopy:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>A reference star of the same spectral type as the host star is chosen in the same science frame.</li>
+            <li> Low-resolution spectroscopic observations are taken continuously covering transit and out of transit.</li>
+            <li>The fluxes of the host star at each wavelength are normalised by dividing it by the fluxes of reference star.</li>
+            <li>The cumulative relative flux of the host star in each wavelength bin is then plotted as a function of phase to obtain the wavelength dependent transit 
+                depth.</li>
+        </ol>
+    </p>
+
+    <h5>
+        Merits and Demerits of LR Spectroscopy:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>It is useful for initial study of exoplanets and for understanding possible atmospheric signatures.</li>
+            <li>Smaller telescopes (e.g, 2 m) are also capable of doing it.</li>
+            <li>Number of data points is less.</li>
+            <li>Observation alone cannot provide a detailed information about the atmosphere of the exoplanet.</li>
+        </ol>
+    </p>
+
+    <h5>
+        High-Resolution Spectroscopy:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>High-resolution spectroscopic observations are taken continuously covering transit and out of transit.</li>
+            <li>Stability of the wavelength solution throughout the observation is important.</li>
+            <li>High Resolution Spectra is analysed to study individual spectral features of the exoplanet atmosphere.</li>
+            <li>Residual planetary signal is obtained by subtracting individual in-transit spectra with master out of transit spectra.</li>
+        </ol>
+    </p>
+
+    <figure class="image", float="left">
+        <img src="/assets/images/2023-06-02-talk/figure2.png" alt="LR-spectra-image", style="width: 20rem;">
+        <img src="/assets/images/2023-06-02-talk/figure3.png" alt="HR-spectra-image", style="width: 20rem;">
+        <figcaption class="post-caption">Figure 2 : Low Resolution (R ~ 1200)(on the left) and High Resolution Spectra (R~65k)s (on the right)
+        </figcaption>
+    </figure>
+
+    <h5>
+        Merits and Demerits of HR Spectroscopy:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>Useful in studying the atmosphere of the exoplanets in more detail.</li>
+            <li>Require more stabilised bigger telescopes.</li>
+        </ol>
+    </p>
+
+    <figure class="image">
+        <img src="/assets/images/2023-06-02-talk/figure4.png" alt="transit-light-curve-image">
+        <figcaption class="post-caption">Figure 3 : During a transit along with an overall flux drop, there is an extra absorption happening in an absorption 
+            feature <em>(Credit: ESO workshop 2022).</em>Examples of He (1083 nm) detection in the atmosphere of WASP-69b using CARMENES (Lisa Nortmann et al. 2018) and Li (671 nm) detection in the atmosphere of   WASP-76b (H. M. Tabernero et al 2021) using VLT/ESPRESSO.
+        </figcaption>
+    </figure>
+
+    <h5>
+        Main Steps to be followed:
+    </h5>
+
+    <p class="post">
+        <ol class="post">
+            <li>Telluric Correction</li>
+            <li>Normalisation</li>
+            <li>Spectra to the stellar rest frame</li>
+            <li>Remove stellar contribution</li>
+            <li>Shift the residual spectra to the planet rest frame</li>
+            <li>Combine all the residual spectra</li>
+        </ol>
+    </p>
+
+    <figure class="image", float="left">
+        <img src="/assets/images/2023-06-02-talk/figure5.png" alt="WASP69b-spectra-image", style="width: 20rem;">
+        <img src="/assets/images/2023-06-02-talk/figure6.jpg" alt="WASP76b-spectra-image", style="width: 20rem;">
+        <figcaption class="post-caption">Figure 4 : Examples of He (1083 nm) detection in the atmosphere of WASP-69b using CARMENES (Lisa Nortmann et al. 2018) 
+            and Li (671 nm) detection in the atmosphere of WASP-76b (H. M. Tabernero et al 2021) using VLT/ESPRESSO.
+        </figcaption>
+    </figure>
+</body>
+</html>]]></content><author><name>athira</name></author><category term="Exoplanets" /><category term="Spectroscopy" /><summary type="html"><![CDATA[The transit method has proven immensely valuable in detecting exoplanets but also holds great potential for characterizing their atmospheres. In this discussion, I will explore the utilization of both low and high-resolution transit spectroscopic techniques, which are employed to examine the atmospheres of exoplanets using ground-based facilities such as HCT/HFOSC, Gemini/GMOS, Keck/HIRES, VLT/ESPRESSO, HARPS, etc.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-06-02-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-06-02-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Coronal Holes and their Detection: A Simple Overview</title><link href="http://localhost:4000/Coronal-holes/" rel="alternate" type="text/html" title="Coronal Holes and their Detection: A Simple Overview" /><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><id>http://localhost:4000/Coronal-holes</id><content type="html" xml:base="http://localhost:4000/Coronal-holes/"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -908,91 +1040,4 @@
     </figure>
 
 </body>
-</html>]]></content><author><name>krishna</name></author><category term="AGN" /><category term="Relativistic Jets" /><category term="Accretion Disk" /><summary type="html"><![CDATA[Active galaxies are highly luminous astrophysical sources in the universe powered by “supermassive black holes” via processes known as “accretion”. They contain a highly bright, compact region at the galaxy’s center called “active galactic nuclei” (AGN). Their emission spreads over a wide range of frequencies through radio to γ-rays. Both thermal and non-thermal radiations from different components of AGN contribute to the total observed emission. They exhibit extreme variations ranging from all the time-scale from minutes to years across the electromagnetic band. These variations occur as flares or quiescent/low-activity states. Studying the cause for such physical properties of AGNs through multi-frequency data using ground and space-based observatories has been found to be one of the most effective ways in the past. Despite such studies in various wavebands, there are several questions for which answers are not fully understood. In this talk, the speaker will briefly introduce AGN and its current understanding status, along with the scope of AGN research.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-02-10-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-02-10-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Eyes on the Sky: Current and upcoming telescopes of this decade</title><link href="http://localhost:4000/Eyes-on-the-sky/" rel="alternate" type="text/html" title="Eyes on the Sky: Current and upcoming telescopes of this decade" /><published>2023-02-03T00:00:00+00:00</published><updated>2023-02-03T00:00:00+00:00</updated><id>http://localhost:4000/Eyes-on%20-the-sky</id><content type="html" xml:base="http://localhost:4000/Eyes-on-the-sky/"><![CDATA[<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/custom.css">
-</head>
-<body>
-    <blockquote>
-        <p class="post">The multi-wavelength and multi-messenger information received from the cosmic objects serves as a laboratory for astronomers to 
-            understand the universe. With technology progressing at a rapid rate, how can astronomy lag behind? Already, there are multiple telescopes with
-            apertures of 10-meter class and networks of telescopes operating across the globe, along with many multi-wavelength telescopes orbiting the earth.
-            Data obtained from these telescopes have revolutionezed our understanding in the recent past. As a natural progression, the era of next-generation 
-            telescopes started with the JWST launch last year. With multiple exciting projects lined up this decade, we can expect to get many new results with
-            better data and enhanced precision.
-        </p>
-        <hr>    
-    </blockquote>
-
-    <p class="post"> Welcome to the first talk organized by the ARIES Science Club! Vivek Kr. Jha presented the first talk. He is also the mentor of our ARIES
-        Science Club (ASC).The talk started with a basic introduction to telescopes. There are various types of telescopes depending on the wavelength we want
-        to observe and the resolution that can be achieved. For example, optical and Radio waves can be observed from ground-based telescopes, whereas the same
-        is not feasible for infrared, UV, and X-ray wavebands. To tackle that, we send the telescopes to specific points in higher atmosphere or space. Also,
-        we have telescopes of different sizes and arrangements with different resolutions and use cases. For example, radio observations need a very large 
-        aperture of the telescope, which is very difficult to make with a single disc antenna. For that array of small antennas is installed in a large open 
-        area.
-    </p>
-
-    <p class="post"> The talk started with a basic introduction to telescopes. There are various types of telescopes depending on the wavelength we want to
-        observe and the resolution that can be achieved. For example, optical and Radio waves can be observed from ground-based telescopes, whereas the same 
-        is not feasible for infrared, UV, and X-ray wavebands. To tackle that, we send the telescopes to specific points in higher atmosphere or space. Also, 
-        we have telescopes of different sizes and arrangements with different resolutions and use cases. For example, radio observations need a very large 
-        aperture of the telescope, which is very difficult to make with a single disc antenna. For that array of small antennas is installed in a large open 
-        area.
-    </p>
-
-    <figure>
-        <img src="/assets/images/2023-02-03-talk/image1.jpg" alt="various sizes of telescope">
-        <figcaption class="post-caption">Figure 1: Upocoming telescopes sizes</figcaption>
-    </figure>
-
-    <figure>
-        <img src="/assets/images/2023-02-03-talk/image2.png" alt="size of telescopes">
-        <figcaption class="post-caption">Figure 2: Comparison of size of various telescopes</figcaption>
-    </figure>
-    
-     <p class="post">The speaker takes everyone through the journey of the capabilities of different telescopes, mainly those with a size greater than 8 meters.
-        To list a few:
-        <ul class="post">
-            <li><em>South African Large Telescope (SALT)</em>: This is the largest single optical telescope in the southern hemisphere. However, it has a major 
-                drawback. It cannot be steered to change the angle of the telescope, hence limiting the observations to a relatively small ring of the sky.
-            </li>
-            <li><em>Very Large Telescope (VLT)</em>: With its set of four 8.2 meter telescopes, it is one of the most technologically advanced telescope 
-                systems due to its ability to perform interferometry using its built-in MUSE equipment. In interferometry, we divide a wide field of view 
-                (large fringe) into smaller slits and then record their interference fringes created by combining the light from multiple telescopes. For 
-                example, our galaxy is quite wide apart and needs multiple slits to cover its boundaries.
-            </li>
-        </ul>
-    </p>
-
-    <p class="post">Next the speaker talks about Radio telescopes a little bit. Optical wavebands are limited, but Radio has a large bandpass. Also, radio 
-        observations can be taken in the daytime, unlike optical. The most advanced telescope for Radio observation is <em>VLA</em> in US and <em>ALMA</em> in 
-        Europe. ALMA is the costliest ground-based telescope to be built to date, with 66 radio antennas in operation. The <em>Five hundred meter Aperture 
-        Spherical Telescope (FAST)</em> in Guizhou, China, is the world’s largest field-aperture telescope. It works in the radio band 70 MHz- 3.0 GHz. India 
-        has its own telescopes for radio observation. The <em>Giant Meterwave Radio Telescope (GMRT)</em> in Pune is the largest radio telescope in India. The
-        main goal of this telescope was to observe the 21 cm line of the neutral Hydrogen. The USPs of this telescope are the 153 and 325 MHz frequencies, 
-        which are critical in Radio astronomy.
-    </p> 
-
-    <p class="post">Other than optical and Radio telescopes, we also have UV and X-ray telescopes in space. The most popular globally is the 32 years old 
-        <em>Hubble Space Telescope (HST)</em>, which has made fundamental contributions to the field. India’s <em>AstroSat</em>, launched in 2015, can also 
-        detect X-ray polarization, a unique attribute of this telescope. Now, modern-day astronomy is progressing from multi-wavelength to multi-messenger 
-        observation. By multi-messenger observation, it is implied that we are also looking for messengers other than photons, like neutrinos, cosmic rays, 
-        and gravitational waves.
-    </p>
-
-    <p class="post">
-        A few take-home points from this lecture:
-        <ul class="post">
-            <li>Telescopes have increased in size over time, and the trend will continue in the coming future.</li>
-            <li>A vast number of telescopes are coming up both on Earth and in space.</li>
-            <li>They continue to expand our knowledge further, probing the Universe closer and closer to the Big Bang.</li>
-            <li>Multi-messenger astronomy is the new norm, as has been with GW detection recently.</li>
-            <li>India is part of a handful of major projects like SKA, TMT, and GMRT, with a possibility of a 10-meter class telescope in the future.</li>
-        </ul> 
-    </p>
-
-</body>
-</html>]]></content><author><name>vivek</name></author><category term="Telescopes" /><category term="Multi-Messenger Information" /><summary type="html"><![CDATA[The multi-wavelength and multi-messenger information received from the cosmic objects serves as a laboratory for astronomers to understand the universe. With technology progressing at a rapid rate, how can astronomy lag behind? Already, there are multiple telescopes with apertures of 10-meter class and networks of telescopes operating across the globe, along with many multi-wavelength telescopes orbiting the earth. Data obtained from these telescopes have revolutionezed our understanding in the recent past. As a natural progression, the era of next-generation telescopes started with the JWST launch last year. With multiple exciting projects lined up this decade, we can expect to get many new results with better data and enhanced precision.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-02-03-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-02-03-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</html>]]></content><author><name>krishna</name></author><category term="AGN" /><category term="Relativistic Jets" /><category term="Accretion Disk" /><summary type="html"><![CDATA[Active galaxies are highly luminous astrophysical sources in the universe powered by “supermassive black holes” via processes known as “accretion”. They contain a highly bright, compact region at the galaxy’s center called “active galactic nuclei” (AGN). Their emission spreads over a wide range of frequencies through radio to γ-rays. Both thermal and non-thermal radiations from different components of AGN contribute to the total observed emission. They exhibit extreme variations ranging from all the time-scale from minutes to years across the electromagnetic band. These variations occur as flares or quiescent/low-activity states. Studying the cause for such physical properties of AGNs through multi-frequency data using ground and space-based observatories has been found to be one of the most effective ways in the past. Despite such studies in various wavebands, there are several questions for which answers are not fully understood. In this talk, the speaker will briefly introduce AGN and its current understanding status, along with the scope of AGN research.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2023-02-10-talk/cover-pic.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/2023-02-10-talk/cover-pic.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

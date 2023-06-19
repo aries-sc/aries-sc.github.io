@@ -33,6 +33,14 @@ authors:
     twitter: 
     description: "Arpit is an SRF at ARIES in his fourth year. His work revolves around the aspects of coronal heating. His research also involves the 
     phenomenon of coronal rain."
+  athira:
+    name: Athira Unii
+    display_name: Athira Unii
+    avatar: 'assets/images/authors/athira.jpg'
+    email: 
+    web:
+    twitter: 
+    description: "Athira is currently an Post Doctoral Fellow at ARIES."
   devesh:
     name: Devesh Dhole 
     display_name: Devesh Dhole 
