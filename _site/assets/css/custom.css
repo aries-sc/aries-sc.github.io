@@ -47,7 +47,6 @@ Just customize your theme here.
     position: relative;
     margin-top: 150px;
     text-align: center;
-   
 }
 
 .images-circ {
@@ -85,6 +84,30 @@ Just customize your theme here.
 
 /*---------------------Gallery-----------------------*/
 .gallery-pic {
-    width: fit-content;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25%;
+    padding: 1rem;
+    margin-left: 0rem;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 0rem;
+}
+
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
